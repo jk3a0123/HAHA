@@ -9,7 +9,6 @@ public class DiscountVO {
 	private Date dend;
 	private Integer dprobability;
 	
-	
 	public Integer getDno() {
 		return dno;
 	}

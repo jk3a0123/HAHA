@@ -17,6 +17,7 @@ public class GalleryVO {
 	private Date gregdate;
 	private Date gupdatedate;
 	
+	
 	public Integer getGno() {
 		return gno;
 	}

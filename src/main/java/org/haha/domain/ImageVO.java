@@ -5,7 +5,6 @@ public class ImageVO {
 	private Integer gno;
 	private String iroute;
 	
-	
 	public Integer getIno() {
 		return Ino;
 	}
