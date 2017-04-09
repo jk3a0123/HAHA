@@ -13,7 +13,7 @@
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
-		<property name="url" value="jdbc:oracle:thin:@192.168.0.112:1521:xe"></property>
+		<property name="url" value="jdbc:oracle:thin:@192.168.0.3:1521:xe"></property>
 		<property name="username" value="HAHA"></property>
 		<property name="password" value="HAHA"></property>
 	</bean>
@@ -28,7 +28,6 @@
 		<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
 			<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory">
 			</constructor-arg>
-		
 		</bean>
 		
 	<bean id="transactionManager"

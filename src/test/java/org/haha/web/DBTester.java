@@ -16,7 +16,7 @@ public class DBTester {
 	public void DBConnectTest()throws Exception{
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		Connection con = DriverManager.getConnection(
-				"jdbc:oracle:thin:@192.168.0.112:1521:xe", "HAHA",
+				"jdbc:oracle:thin:@192.168.0.3:1521:xe", "HAHA",
 				"HAHA");
 		System.out.println(con);
 		con.close();
