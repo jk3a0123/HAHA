@@ -13,12 +13,13 @@ public class DBTester {
 
 	@Test
 	public void DBConnectTest()throws Exception{
-		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection(
-				"jdbc:oracle:thin:@192.168.0.6:1521:xe", "HAHA",
-				"HAHA");
+				"jdbc:mysql://192.168.0.6:3306/haha?useSSL=false&serverTimezone=Asia/Seoul", "makemoney",
+				"makemoney");
+
 		System.out.println(con);
-		con.close();
+con.close();
 	}
 	
 }

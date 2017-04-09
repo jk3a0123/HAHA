@@ -1,5 +1,5 @@
 package org.haha.domain;
 
-public class ExhibitRoomVO {
+public class GalleryVO {
 
 }
