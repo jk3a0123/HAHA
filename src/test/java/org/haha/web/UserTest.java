@@ -17,7 +17,7 @@ public class UserTest {
 	
 	@Test
 	public void selectDaoTest()throws Exception{
-		System.out.println(dao.userList());  
+		System.out.println(dao.userList());    
 		
 	}
 
