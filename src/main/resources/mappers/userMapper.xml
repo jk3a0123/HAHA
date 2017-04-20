@@ -8,5 +8,24 @@
 select * from tbl_user
 </select>
 
+<insert id="register">
+insert into tbl_user ( uid, upw, uname, uimage, uemail, uphonenumber, ctno)
+VALUES(#{uid}, #{upw}, #{uname}, #{uimage}, #{uemail}, #{uphonenumber}, #{ctno})
+</insert>
+
+<select id="read" resultType="UserVO">
+select * from tbl_user where uno = #{uno}
+</select>
+
+<update id="update">
+update tbl_user 
+SET uid = #{uid} , upw = #{upw} , uname = #{uname} , uimage = #{uimage} , uemail = #{uemail},
+uphonenumber = #{uphonenumber} , ctno = #{ctno} where uno = #{uno}
+
+</update>
+
+<delete id="delete">
+delete FROM tbl_user WHERE uno = #{uno}
+</delete>
 
 </mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.haha.mapper.ServiceMarkMapper">
+
+<insert id="insert">
+insert  into tbl_serviceMark (gno , smcleanliness , smprice , smaccessibility , smpopulation) 
+value ( #{gno} , #{smcleanliness} , #{smprice} , #{smaccessibility} , #{smpopulation} )
+</insert>
+
+<select id="read" resultType="ServiceMarkVO">
+select * from tbl_ServiceMark where smno = #{smno}
+</select>
+
+<update id="update">
+update tbl_servicemark set 
+gno = #{gno} , smcleanliness = #{smcleanliness} , smprice = #{smprice} , smaccessibility = #{smaccessibility} , smpopulation = #{smpopulation}
+where smno = #{smno}
+</update>
+
+<delete id="delete">
+delete from tbl_servicemark where smno = #{smno}
+</delete>
+
+
+</mapper>
