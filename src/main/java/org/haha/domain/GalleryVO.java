@@ -104,7 +104,5 @@ public class GalleryVO {
 				+ ", glat=" + glat + ", glng=" + glng + ", gcategory=" + gcategory + ", gfacilities=" + gfacilities
 				+ ", gregdate=" + gregdate + ", gupdatedate=" + gupdatedate + "]";
 	}
-	
-	
 }
 
