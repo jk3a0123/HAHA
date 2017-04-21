@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.haha.mapper.IconMapper"> 
+	
+	<insert id="insert">
+	insert into tbl_icon (gno,icone,ictwo,icthree,icfour,icfive) value (#{gno},#{icone},#{ictwo},#{icthree},#{icfour},#{icfive})
+	</insert>
+	
+	<select id="read" resultType="IconVO">
+	select * from tbl_icon where icno = #{icon}
+	</select>
+	
+	<update id="update">
+	update tbl_icon set 
+	gno = #{gno} , icone = #{icone} , ictwo = #{ictwo} , icthree = #{icthree} , icfour = #{icfour} , icfive = #{icfive}
+	where icno = #{icno}
+	</update>
+	
+	<delete id="delete">
+	delete from tbl_icon where icno = #{icno}
+	</delete>
+	
+	
+</mapper>

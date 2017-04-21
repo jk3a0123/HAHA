@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="org.haha.mapper.PriceMapper">
+ 
+ <insert id="insert">
+ insert into tbl_price (gno,offfare,peakfare,peakopen,peakclose)
+ value(#{gno},#{offfare},#{peakfare},#{peakopen},#{peakclose})
+ </insert>
+ 
+ <select id="read" resultType="PriceVO">
+ select * from tbl_price where pno = #{pno}
+  </select>
+  
+  <update id="update">
+  update tbl_price set
+  gno = #{gno},offfare=#{offfare},peakfare=#{peakfare},peakopen=#{peakopen},peakclose=#{peakclose}
+  where pno= #{pno}
+  </update>
+ 
+ <delete id="delete">
+ delete from tbl_price where pno = #{pno}
+ </delete>
+ 
+ </mapper>
