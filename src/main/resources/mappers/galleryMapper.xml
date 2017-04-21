@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.haha.mapper.GalleryMapper">
+
+<insert id="insert">
+INSERT INTO tbl_gallery(uno,gexplanation,pno,gacreage,gborrow_start,gborrow_end,glat,glng,
+                        gcategory,gfacilities,gregdate,gupdatedate)
+VALUES (#{uno} , #{gexplanation},#{pno}, #{gacreage},#{gborrow_start},#{gborrow_end},#{glat},#{glng},
+             #{gcategory},#{gfacilities},sysdate(), sysdate())
+</insert>
+
+<select id="read" resultType="GalleryVO">
+SELECT *
+  FROM tbl_gallery
+ WHERE gno = #{gno}
+</select>
+
+<update id="update">
+UPDATE tbl_gallery
+   SET uno = #{uno},
+       gexplanation = #{gexplanation},
+       pno = #{pno},
+       gacreage = #{gacreage},
+       gborrow_start = #{gborrow_start},
+       gborrow_end = #{gborrow_end},
+       glat = #{glat},
+       glng = #{glng},
+       gcategory = #{gcategory},
+       gfacilities = #{gfacilities},
+       gupdatedate = sysdate()
+ WHERE gno = #{gno}
+</update>
+
+<delete id="delete">
+DELETE FROM tbl_gallery
+      WHERE gno = #{gno}
+</delete>
+
+
+</mapper>

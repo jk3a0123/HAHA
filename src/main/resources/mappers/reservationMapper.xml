@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.haha.mapper.ReservationMapper">
+
+<insert id="insert">
+INSERT INTO tbl_reservation(uno, gno, rpersonnel,rregdate,ropendate,rclosedate,rupdatedate,rresdate,rprice,retc)
+VALUES (#{uno} , #{gno} , #{rpersonnel} , sysdate() , #{ropendate} , #{rclosedate} , sysdate() , #{rresdate} , #{rprice} , #{retc})
+</insert>
+
+<select id="read" resultType="ReservationVO">
+SELECT *FROM tbl_reservation
+WHERE rno = #{rno}
+</select>
+
+<update id="update">
+UPDATE tbl_reservation
+   SET uno = #{uno},
+       gno = #{gno},
+       rpersonnel = #{rpersonnel},
+       ropendate = #{ropendate},
+       rclosedate = #{rclosedate},
+       rupdatedate = sysdate(),
+       rresdate = #{rresdate},
+       rprice = #{rprice},
+       retc = #{retc}
+ WHERE rno = #{rno}
+</update>
+
+<delete id="delete">
+DELETE FROM tbl_reservation
+      WHERE rno = #{rno}
+</delete>
+
+
+</mapper>
