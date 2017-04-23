@@ -1,8 +1,9 @@
 package org.haha.service;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
-import org.haha.domain.IconVO;
 import org.haha.domain.ImageVO;
 import org.haha.persistence.ImageDAO;
 import org.springframework.stereotype.Service;
@@ -51,6 +52,20 @@ public class ImageServiceImpl implements ImageService {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+
+	@Override
+	public List<ImageVO> imageGetList(Integer gno) {
+		List<ImageVO> result = null;
+
+		try {
+			result = dao.ImageList(gno);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return result;
 	}
 
 }

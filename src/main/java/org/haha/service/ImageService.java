@@ -1,5 +1,7 @@
 package org.haha.service;
 
+import java.util.List;
+
 import org.haha.domain.ImageVO;
 
 public interface ImageService {
@@ -12,4 +14,5 @@ public interface ImageService {
 	
 	public void remove(Integer ino);
 	
+	public List<ImageVO> imageGetList(Integer gno);
 }

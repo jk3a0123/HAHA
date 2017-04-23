@@ -114,6 +114,10 @@ public class DAOTest {
 		iconDao.delete(2);
 	}
 	
+	@Test
+	public void IconListTest() throws Exception{
+		System.out.println(iconDao.IconList());
+	}
 	// ==============================	ImageDAO Test	======================
 
 	@Test
@@ -144,6 +148,10 @@ public class DAOTest {
 		imageDao.delete(2);
 	}
 	
+	@Test
+	public void ImageListTest() throws Exception{
+		System.out.println(imageDao.ImageList(2));
+	}
 	// ==============================	priceDAO Test	======================
 
 	@Test
@@ -193,56 +201,20 @@ public class DAOTest {
 		priceDao.delete(1);
 	}
 	
+	@Test
+	public void priceListTest()	throws Exception{
+		System.out.println(priceDao.priceList());
+	}
 	
 	// ==============================	ServiceMarkService Test	======================
 
 	@Test
-	public void ServiceMarkAllList() throws Exception{
-		
-		List<ServiceMarkVO> list = null;
-		list = markService.allList();
-		
-		for(int i = 0 ; i < list.size() ; i ++){
-			System.out.println(list.get(i));
+	public void ServiceMarkAllListTest() throws Exception{
+		List<ServiceMarkVO> allList = null;
+		allList = markService.allList();
+		for(int i = 0 ; i < allList.size() ; i ++){
+			System.out.println(allList.get(i));
 		}
-		
 	}
-	
-	@Test
-	public void ServiceMarkServiceRegister() throws Exception{
-		
-		ServiceMarkVO vo = new ServiceMarkVO();
-		vo.setGno(5);
-		vo.setSmaccessibility(1.4);
-		vo.setSmcleanliness(2.3);
-		vo.setSmpopulation(3.5);
-		vo.setSmprice(4.4);
-		
-		markService.register(vo);
-	}
-	
-	@Test
-	public void ServiceMarkServiceView() throws Exception{
-		System.out.println(markService.view(3));
-	}
-	
-	@Test
-	public void ServiceMarkServiceModify() throws Exception{
-		ServiceMarkVO vo = new ServiceMarkVO();
-		vo.setSmno(3);
-		vo.setGno(3);
-		vo.setSmaccessibility(1.1);
-		vo.setSmcleanliness(2.2);
-		vo.setSmpopulation(3.3);
-		vo.setSmprice(4.4);
-		
-		markService.modify(vo);
-	}
-	
-	@Test
-	public void ServiceMarkServiceRemove() throws Exception{
-		markService.remove(3);
-	}
-	
 	
 }

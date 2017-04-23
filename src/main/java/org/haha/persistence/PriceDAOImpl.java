@@ -1,5 +1,7 @@
 package org.haha.persistence;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.apache.ibatis.session.SqlSession;
@@ -31,6 +33,11 @@ public class PriceDAOImpl implements PriceDAO {
 	@Override
 	public void delete(Integer pno) throws Exception {
 		sqlSession.delete(MAPPER+"delete",pno);
+	}
+
+	@Override
+	public List<PriceVO> priceList() throws Exception {
+		return sqlSession.selectList(MAPPER+"priceList");
 	}
 
 }

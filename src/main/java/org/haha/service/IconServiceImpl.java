@@ -1,5 +1,7 @@
 package org.haha.service;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.haha.domain.IconVO;
@@ -19,7 +21,7 @@ public class IconServiceImpl implements IconService {
 			e.printStackTrace();
 		}
 	}
-
+	
 	@Override
 	public IconVO view(Integer icno) {
 		IconVO result = null;
@@ -50,6 +52,19 @@ public class IconServiceImpl implements IconService {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+
+	@Override
+	public List<IconVO> iconGetList() {
+		List<IconVO> result = null;
+
+		try {
+			result = dao.IconList();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return result;
 	}
 
 }

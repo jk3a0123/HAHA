@@ -21,5 +21,8 @@
   <delete id="delete">
   delete from tbl_image where ino=#{ino}
   </delete>
-    
+   
+   <select id="imageList" resultType="ImageVO">
+   select * from tbl_image where gno = #{gno}
+   </select>
 </mapper>

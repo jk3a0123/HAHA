@@ -1,5 +1,7 @@
 package org.haha.persistence;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.apache.ibatis.session.SqlSession;
@@ -32,6 +34,11 @@ public class ImageDAOImpl implements ImageDAO {
 	@Override
 	public void delete(Integer ino) throws Exception {
 		sqlSession.delete(MAPPER+"delete",ino);
+	}
+
+	@Override
+	public List<ImageVO> ImageList(Integer gno) throws Exception {
+		return sqlSession.selectList(MAPPER+"imageList",gno);
 	}
 
 }

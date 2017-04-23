@@ -66,6 +66,10 @@ public class ServiceTest {
 		iconService.remove(5);
 	}
 	
+	@Test
+	public void iconGetList() throws Exception{
+		System.out.println(iconService.iconGetList());
+	}
 	// ====================== Image Service Test =========================
 	
 	@Test
@@ -95,6 +99,11 @@ public class ServiceTest {
 	@Test
 	public void imageRemove() throws Exception{
 		imageService.remove(3);
+	}
+	
+	@Test
+	public void imageGetListTest() throws Exception{
+		System.out.println(imageService.imageGetList(2));
 	}
 	// ====================== Price Service Test =========================
 		@Test
@@ -139,5 +148,10 @@ public class ServiceTest {
 		@Test
 		public void priceRemove() throws Exception{
 			priceService.remove(2);
+		}
+		
+		@Test
+		public void priceGetList() throws Exception{
+			System.out.println(priceService.priceGetList());
 		}
 }

@@ -23,4 +23,7 @@
  delete from tbl_price where pno = #{pno}
  </delete>
  
+ <select id="priceList" resultType="PriceVO">
+ select * from tbl_price where pno > 0
+ </select>
  </mapper>
