@@ -14,7 +14,7 @@ public class GalleryDAOImpl implements GalleryDAO {
 	private final String MAPPER = "org.haha.mapper.GalleryMapper.";
 
 	@Override
-	public void register(GalleryVO vo) throws Exception {
+	public void create(GalleryVO vo) throws Exception {
 		sqlSession.insert(MAPPER + "insert" , vo);
 
 	}

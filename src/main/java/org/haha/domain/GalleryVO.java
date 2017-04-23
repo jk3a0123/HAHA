@@ -5,19 +5,26 @@ import java.util.Date;
 public class GalleryVO {
 	private Integer gno;
 	private Integer uno;
-	private String gexplanation;
 	private Integer pno;
-	private String gacreage;
-	private Date gborrow_start;
-	private Date gborrow_end;
+	private Integer gopenyear;
+	private Integer gacreage;
+	private Integer gpa;
 	private Double glat;
 	private Double glng;
+	private String gexplanation;
 	private String gcategory;
-	private String gfacilities;
+	private String gallery_name;
+	private String garea;
+	private String gaddress;
+	private String gdirector;
+	private String gesp;
+	private String gosp;
+	private String ghomepage;
+	private String gphone;
+	private Date gborrow_start;
+	private Date gborrow_end;
 	private Date gregdate;
 	private Date gupdatedate;
-	
-	
 	public Integer getGno() {
 		return gno;
 	}
@@ -30,35 +37,23 @@ public class GalleryVO {
 	public void setUno(Integer uno) {
 		this.uno = uno;
 	}
-	public String getGexplanation() {
-		return gexplanation;
-	}
-	public void setGexplanation(String gexplanation) {
-		this.gexplanation = gexplanation;
-	}
 	public Integer getPno() {
 		return pno;
 	}
 	public void setPno(Integer pno) {
 		this.pno = pno;
 	}
-	public String getGacreage() {
+	public Integer getGopenyear() {
+		return gopenyear;
+	}
+	public void setGopenyear(Integer gopenyear) {
+		this.gopenyear = gopenyear;
+	}
+	public Integer getGacreage() {
 		return gacreage;
 	}
-	public void setGacreage(String gacreage) {
+	public void setGacreage(Integer gacreage) {
 		this.gacreage = gacreage;
-	}
-	public Date getGborrow_start() {
-		return gborrow_start;
-	}
-	public void setGborrow_start(Date gborrow_start) {
-		this.gborrow_start = gborrow_start;
-	}
-	public Date getGborrow_end() {
-		return gborrow_end;
-	}
-	public void setGborrow_end(Date gborrow_end) {
-		this.gborrow_end = gborrow_end;
 	}
 	public Double getGlat() {
 		return glat;
@@ -72,17 +67,78 @@ public class GalleryVO {
 	public void setGlng(Double glng) {
 		this.glng = glng;
 	}
+	public String getGexplanation() {
+		return gexplanation;
+	}
+	public void setGexplanation(String gexplanation) {
+		this.gexplanation = gexplanation;
+	}
 	public String getGcategory() {
 		return gcategory;
 	}
 	public void setGcategory(String gcategory) {
 		this.gcategory = gcategory;
 	}
-	public String getGfacilities() {
-		return gfacilities;
+	public String getGallery_name() {
+		return gallery_name;
 	}
-	public void setGfacilities(String gfacilities) {
-		this.gfacilities = gfacilities;
+	public void setGallery_name(String gallery_name) {
+		this.gallery_name = gallery_name;
+	}
+	public String getGarea() {
+		return garea;
+	}
+	public void setGarea(String garea) {
+		this.garea = garea;
+	}
+
+	public String getGaddress() {
+		return gaddress;
+	}
+	public void setGaddress(String gaddress) {
+		this.gaddress = gaddress;
+	}
+	public String getGdirector() {
+		return gdirector;
+	}
+	public void setGdirector(String gdirector) {
+		this.gdirector = gdirector;
+	}
+	public String getGesp() {
+		return gesp;
+	}
+	public void setGesp(String gesp) {
+		this.gesp = gesp;
+	}
+	public String getGosp() {
+		return gosp;
+	}
+	public void setGosp(String gosp) {
+		this.gosp = gosp;
+	}
+	public String getGhomepage() {
+		return ghomepage;
+	}
+	public void setGhomepage(String ghomepage) {
+		this.ghomepage = ghomepage;
+	}
+	public String getGphone() {
+		return gphone;
+	}
+	public void setGphone(String gphone) {
+		this.gphone = gphone;
+	}
+	public Date getGborrow_start() {
+		return gborrow_start;
+	}
+	public void setGborrow_start(Date gborrow_start) {
+		this.gborrow_start = gborrow_start;
+	}
+	public Date getGborrow_end() {
+		return gborrow_end;
+	}
+	public void setGborrow_end(Date gborrow_end) {
+		this.gborrow_end = gborrow_end;
 	}
 	public Date getGregdate() {
 		return gregdate;
@@ -97,12 +153,25 @@ public class GalleryVO {
 		this.gupdatedate = gupdatedate;
 	}
 	
+	public Integer getGpa() {
+		return gpa;
+	}
+	public void setGpa(Integer gpa) {
+		this.gpa = gpa;
+	}
 	@Override
 	public String toString() {
-		return "GalleryVO [gno=" + gno + ", uno=" + uno + ", gexplanation=" + gexplanation + ", pno=" + pno
-				+ ", gacreage=" + gacreage + ", gborrow_start=" + gborrow_start + ", gborrow_end=" + gborrow_end
-				+ ", glat=" + glat + ", glng=" + glng + ", gcategory=" + gcategory + ", gfacilities=" + gfacilities
+		return "GalleryVO [gno=" + gno + ", uno=" + uno + ", pno=" + pno + ", gopenyear=" + gopenyear + ", gacreage="
+				+ gacreage + ", gpa=" + gpa + ", glat=" + glat + ", glng=" + glng + ", gexplanation=" + gexplanation
+				+ ", gcategory=" + gcategory + ", gallery_name=" + gallery_name + ", garea=" + garea + ", gaddress="
+				+ gaddress + ", gdirector=" + gdirector + ", gesp=" + gesp + ", gosp=" + gosp + ", ghomepage="
+				+ ghomepage + ", gphone=" + gphone + ", gborrow_start=" + gborrow_start + ", gborrow_end=" + gborrow_end
 				+ ", gregdate=" + gregdate + ", gupdatedate=" + gupdatedate + "]";
 	}
+
+
+	
+	
+	
 }
 

@@ -5,10 +5,13 @@
 <mapper namespace="org.haha.mapper.GalleryMapper">
 
 <insert id="insert">
-INSERT INTO tbl_gallery(uno,gexplanation,pno,gacreage,gborrow_start,gborrow_end,glat,glng,
-                        gcategory,gfacilities,gregdate,gupdatedate)
-VALUES (#{uno} , #{gexplanation},#{pno}, #{gacreage},#{gborrow_start},#{gborrow_end},#{glat},#{glng},
-             #{gcategory},#{gfacilities},sysdate(), sysdate())
+INSERT INTO tbl_gallery ( gacreage , gaddress , garea , gborrow_start , gborrow_end , gcategory ,
+gesp , gexplanation , gallery_name , ghomepage , glat , glng , gdirector , gopenyear ,
+gosp, gpa , gphone , gregdate , gupdatedate , pno  , uno) 
+values 
+( #{gacreage} , #{gaddress} , #{garea} , #{gborrow_start} , #{gborrow_end} , #{gcategory} , #{gesp} , #{gexplanation} , 
+#{gallery_name} , #{ghomepage}, #{glat} , #{glng} , #{gdirector} , #{gopenyear} , #{gosp} , #{gpa} , #{gphone} ,
+sysdate() , sysdate() , #{pno} , #{uno} )
 </insert>
 
 <select id="read" resultType="GalleryVO">
@@ -18,19 +21,28 @@ SELECT *
 </select>
 
 <update id="update">
-UPDATE tbl_gallery
-   SET uno = #{uno},
-       gexplanation = #{gexplanation},
-       pno = #{pno},
-       gacreage = #{gacreage},
-       gborrow_start = #{gborrow_start},
-       gborrow_end = #{gborrow_end},
-       glat = #{glat},
-       glng = #{glng},
-       gcategory = #{gcategory},
-       gfacilities = #{gfacilities},
-       gupdatedate = sysdate()
- WHERE gno = #{gno}
+update tbl_gallery set 
+gacreage = #{gacreage} , 
+gaddress = #{gaddress} , 
+garea =#{garea} , 
+gborrow_start = #{gborrow_start} , 
+gborrow_end = #{gborrow_end} ,
+gcategory = #{gcategory} , 
+gesp = #{gesp} , 
+gexplanation = #{gexplanation} , 
+gallery_name = #{gallery_name} ,
+ ghomepage = #{ghomepage} , 
+ glat = #{glat} ,
+glng = #{glng}, 
+gdirector = #{gdirector} , 
+gosp = #{gosp} , 
+gpa = #{gpa} , 
+gphone = #{gphone} , 
+gupdatedate = sysdate() ,
+gopenyear = #{gopenyear} ,
+pno = #{pno} ,
+uno = #{uno}
+where gno = #{gno}; 
 </update>
 
 <delete id="delete">

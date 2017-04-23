@@ -4,7 +4,7 @@ import org.haha.domain.GalleryVO;
 
 public interface GalleryDAO {
 	
-	public void register(GalleryVO vo) throws Exception;
+	public void create(GalleryVO vo) throws Exception;
 	
 	public GalleryVO read(Integer gno) throws Exception;
 	
