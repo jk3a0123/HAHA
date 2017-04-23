@@ -6,7 +6,6 @@ public class EpilogueVO {
 	private int eno;
 	private int gno;
 	private int uno;
-	private double grade;
 	private String econtents;
 	private Date eregdate;
 	private Date eupdatedate;
@@ -29,12 +28,6 @@ public class EpilogueVO {
 	public void setUno(int uno) {
 		this.uno = uno;
 	}
-	public double getGrade() {
-		return grade;
-	}
-	public void setGrade(double grade) {
-		this.grade = grade;
-	}
 	public String getEcontents() {
 		return econtents;
 	}
@@ -53,11 +46,10 @@ public class EpilogueVO {
 	public void setEupdatedate(Date eupdatedate) {
 		this.eupdatedate = eupdatedate;
 	}
-	
 	@Override
 	public String toString() {
-		return "EpilogueVO [eno=" + eno + ", gno=" + gno + ", uno=" + uno + ", grade=" + grade + ", econtents="
-				+ econtents + ", eregdate=" + eregdate + ", eupdatedate=" + eupdatedate + "]";
+		return "EpilogueVO [eno=" + eno + ", gno=" + gno + ", uno=" + uno + ", econtents=" + econtents + ", eregdate="
+				+ eregdate + ", eupdatedate=" + eupdatedate + "]";
 	}
 	
 }

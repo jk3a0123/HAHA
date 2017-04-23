@@ -127,7 +127,6 @@ public class CDE_ServiceTester {
 		vo.setEno(4);
 		vo.setGno(4);
 		vo.setUno(4);
-		vo.setGrade(4.5);
 		vo.setEcontents("테스트2입니다");
 		vo.setEregdate(eregdate);
 		vo.setEupdatedate(eupdatedate);
