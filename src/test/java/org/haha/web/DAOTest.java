@@ -109,6 +109,10 @@ public class DAOTest {
 		iconDao.delete(2);
 	}
 	
+	@Test
+	public void IconListTest() throws Exception{
+		System.out.println(iconDao.IconList());
+	}
 	// ==============================	ImageDAO Test	======================
 
 	@Test
@@ -139,6 +143,10 @@ public class DAOTest {
 		imageDao.delete(2);
 	}
 	
+	@Test
+	public void ImageListTest() throws Exception{
+		System.out.println(imageDao.ImageList(2));
+	}
 	// ==============================	priceDAO Test	======================
 
 	@Test
@@ -188,4 +196,8 @@ public class DAOTest {
 		priceDao.delete(1);
 	}
 	
+	@Test
+	public void priceListTest()	throws Exception{
+		System.out.println(priceDao.priceList());
+	}
 }
