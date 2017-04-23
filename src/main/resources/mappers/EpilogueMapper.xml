@@ -5,8 +5,8 @@
 <mapper namespace="org.haha.mapper.EpilogueMapper">
 
 <insert id="insert">
-insert  into tbl_epilogue (eno , gno , uno, econtents , eregdate , eupdatedate) 
-value ( #{eno} , #{gno} , #{uno} , #{econtents} , #{eregdate} , #{eupdatedate} )
+insert  into tbl_epilogue (eno , gno , uno, grade, econtents , eregdate , eupdatedate) 
+value ( #{eno} , #{gno} , #{uno} , #{grade} , #{econtents} , #{eregdate} , #{eupdatedate} )
 </insert>
 
 <select id="read" resultType="EpilogueVO">
@@ -15,7 +15,7 @@ select * from tbl_epilogue where eno = #{eno}
 
 <update id="update">
 update tbl_epilogue set
-eno = #{eno} , gno = #{gno} , uno = #{uno} , econtents = #{econtents} , eregdate = #{eregdate} , eupdatedate = #{eupdatedate}
+eno = #{eno} , gno = #{gno} , uno = #{uno} , grade = #{grade} , econtents = #{econtents} , eregdate = #{eregdate} , eupdatedate = #{eupdatedate}
 where eno = #{eno}
 </update>
 
