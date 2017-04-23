@@ -4,7 +4,7 @@ import org.haha.domain.ReservationVO;
 
 public interface ReservationDAO {
 	
-	public void register(ReservationVO vo) throws Exception;
+	public void create(ReservationVO vo) throws Exception;
 	
 	public ReservationVO read(Integer rno) throws Exception;
 	

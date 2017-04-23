@@ -2,6 +2,7 @@ package org.haha.web;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 import javax.inject.Inject;
 
@@ -13,6 +14,7 @@ import org.haha.persistence.IconDAO;
 import org.haha.persistence.ImageDAO;
 import org.haha.persistence.PriceDAO;
 import org.haha.persistence.ServiceMarkDAO;
+import org.haha.service.ServiceMarkService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -34,6 +36,9 @@ public class DAOTest {
 	@Inject
 	PriceDAO priceDao;
 	
+	@Inject
+	ServiceMarkService markService;
+	
 	// ============================== MarkDAO Test	======================
 	
 	
@@ -45,7 +50,7 @@ public class DAOTest {
 		vo.setSmcleanliness(2.3);
 		vo.setSmpopulation(3.5);
 		vo.setSmprice(4.4);
-		markDao.register(vo);
+		markDao.create(vo);
 	}
 	
 	@Test
@@ -187,5 +192,57 @@ public class DAOTest {
 	public void priceDeleteTest()throws Exception{
 		priceDao.delete(1);
 	}
+	
+	
+	// ==============================	ServiceMarkService Test	======================
+
+	@Test
+	public void ServiceMarkAllList() throws Exception{
+		
+		List<ServiceMarkVO> list = null;
+		list = markService.allList();
+		
+		for(int i = 0 ; i < list.size() ; i ++){
+			System.out.println(list.get(i));
+		}
+		
+	}
+	
+	@Test
+	public void ServiceMarkServiceRegister() throws Exception{
+		
+		ServiceMarkVO vo = new ServiceMarkVO();
+		vo.setGno(5);
+		vo.setSmaccessibility(1.4);
+		vo.setSmcleanliness(2.3);
+		vo.setSmpopulation(3.5);
+		vo.setSmprice(4.4);
+		
+		markService.register(vo);
+	}
+	
+	@Test
+	public void ServiceMarkServiceView() throws Exception{
+		System.out.println(markService.view(3));
+	}
+	
+	@Test
+	public void ServiceMarkServiceModify() throws Exception{
+		ServiceMarkVO vo = new ServiceMarkVO();
+		vo.setSmno(3);
+		vo.setGno(3);
+		vo.setSmaccessibility(1.1);
+		vo.setSmcleanliness(2.2);
+		vo.setSmpopulation(3.3);
+		vo.setSmprice(4.4);
+		
+		markService.modify(vo);
+	}
+	
+	@Test
+	public void ServiceMarkServiceRemove() throws Exception{
+		markService.remove(3);
+	}
+	
 	
 }

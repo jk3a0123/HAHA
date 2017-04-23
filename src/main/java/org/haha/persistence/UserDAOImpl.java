@@ -23,7 +23,7 @@ public class UserDAOImpl implements UserDAO {
 	}
 
 	@Override
-	public void register(UserVO vo) throws Exception {
+	public void create(UserVO vo) throws Exception {
 		sqlSession.insert(MAPPER + "register" , vo);
 		
 	}

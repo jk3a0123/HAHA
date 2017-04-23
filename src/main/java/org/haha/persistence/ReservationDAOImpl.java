@@ -15,7 +15,7 @@ public class ReservationDAOImpl implements ReservationDAO {
 	
 	
 	@Override
-	public void register(ReservationVO vo) throws Exception {
+	public void create(ReservationVO vo) throws Exception {
 		sqlSession.insert(MAPPER + "insert" , vo);
 
 	}

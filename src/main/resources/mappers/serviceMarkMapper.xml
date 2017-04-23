@@ -24,4 +24,8 @@ delete from tbl_servicemark where smno = #{smno}
 </delete>
 
 
+<select id="allList" resultType = "ServiceMarkVO">
+	select * from tbl_ServiceMark
+</select>
+
 </mapper>

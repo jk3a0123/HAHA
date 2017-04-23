@@ -1,5 +1,7 @@
 package org.haha.persistence;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.apache.ibatis.session.SqlSession;
@@ -14,7 +16,7 @@ public class ServiceMarkDAOImpl implements ServiceMarkDAO {
 	private final String MAPPER = "org.haha.mapper.ServiceMarkMapper.";
 
 	@Override
-	public void register(ServiceMarkVO vo) throws Exception {
+	public void create(ServiceMarkVO vo) throws Exception {
 		sqlSession.insert(MAPPER + "insert" , vo);
 
 	}
@@ -34,6 +36,11 @@ public class ServiceMarkDAOImpl implements ServiceMarkDAO {
 	public void delete(Integer smno) throws Exception {
 		sqlSession.delete(MAPPER + "delete" , smno);
 
+	}
+
+	@Override
+	public List<ServiceMarkVO> allList() throws Exception {
+		return sqlSession.selectList(MAPPER + "allList");
 	}
 
 }

@@ -8,7 +8,7 @@ public interface UserDAO {
 	
 	public List<UserVO> userList()throws Exception;
 	
-	public void register(UserVO vo)throws Exception;
+	public void create(UserVO vo)throws Exception;
 	
 	public UserVO read(Integer uno)throws Exception;
 	
