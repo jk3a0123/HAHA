@@ -29,7 +29,7 @@ public class GalleryTest {
 		vo.setGacreage(100);
 		vo.setGopening(date);
 		vo.setGclosing(date);
-		vo.setGcategory("사진");
+		vo.setGcategory("사진"); 
 		vo.setGexplanation("test");
 		vo.setGesp("test");
 		vo.setGosp("test1");

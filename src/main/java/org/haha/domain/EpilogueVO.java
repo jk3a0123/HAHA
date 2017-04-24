@@ -46,12 +46,10 @@ public class EpilogueVO {
 	public void setEupdatedate(Date eupdatedate) {
 		this.eupdatedate = eupdatedate;
 	}
-	
 	@Override
 	public String toString() {
 		return "EpilogueVO [eno=" + eno + ", gno=" + gno + ", uno=" + uno + ", econtents=" + econtents + ", eregdate="
 				+ eregdate + ", eupdatedate=" + eupdatedate + "]";
 	}
-	
 	
 }
