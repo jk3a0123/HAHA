@@ -21,8 +21,8 @@ public class GalleryVO {
 	private String gosp;
 	private String ghomepage;
 	private String gphone;
-	private Date gborrow_start;
-	private Date gborrow_end;
+	private Date gopening;
+	private Date gclosing;
 	private Date gregdate;
 	private Date gupdatedate;
 	public Integer getGno() {
@@ -54,6 +54,12 @@ public class GalleryVO {
 	}
 	public void setGacreage(Integer gacreage) {
 		this.gacreage = gacreage;
+	}
+	public Integer getGpa() {
+		return gpa;
+	}
+	public void setGpa(Integer gpa) {
+		this.gpa = gpa;
 	}
 	public Double getGlat() {
 		return glat;
@@ -91,7 +97,6 @@ public class GalleryVO {
 	public void setGarea(String garea) {
 		this.garea = garea;
 	}
-
 	public String getGaddress() {
 		return gaddress;
 	}
@@ -128,17 +133,17 @@ public class GalleryVO {
 	public void setGphone(String gphone) {
 		this.gphone = gphone;
 	}
-	public Date getGborrow_start() {
-		return gborrow_start;
+	public Date getGopening() {
+		return gopening;
 	}
-	public void setGborrow_start(Date gborrow_start) {
-		this.gborrow_start = gborrow_start;
+	public void setGopening(Date gopening) {
+		this.gopening = gopening;
 	}
-	public Date getGborrow_end() {
-		return gborrow_end;
+	public Date getGclosing() {
+		return gclosing;
 	}
-	public void setGborrow_end(Date gborrow_end) {
-		this.gborrow_end = gborrow_end;
+	public void setGclosing(Date gclosing) {
+		this.gclosing = gclosing;
 	}
 	public Date getGregdate() {
 		return gregdate;
@@ -152,23 +157,15 @@ public class GalleryVO {
 	public void setGupdatedate(Date gupdatedate) {
 		this.gupdatedate = gupdatedate;
 	}
-	
-	public Integer getGpa() {
-		return gpa;
-	}
-	public void setGpa(Integer gpa) {
-		this.gpa = gpa;
-	}
 	@Override
 	public String toString() {
 		return "GalleryVO [gno=" + gno + ", uno=" + uno + ", pno=" + pno + ", gopenyear=" + gopenyear + ", gacreage="
 				+ gacreage + ", gpa=" + gpa + ", glat=" + glat + ", glng=" + glng + ", gexplanation=" + gexplanation
 				+ ", gcategory=" + gcategory + ", gallery_name=" + gallery_name + ", garea=" + garea + ", gaddress="
 				+ gaddress + ", gdirector=" + gdirector + ", gesp=" + gesp + ", gosp=" + gosp + ", ghomepage="
-				+ ghomepage + ", gphone=" + gphone + ", gborrow_start=" + gborrow_start + ", gborrow_end=" + gborrow_end
-				+ ", gregdate=" + gregdate + ", gupdatedate=" + gupdatedate + "]";
+				+ ghomepage + ", gphone=" + gphone + ", gopening=" + gopening + ", gclosing=" + gclosing + ", gregdate="
+				+ gregdate + ", gupdatedate=" + gupdatedate + "]";
 	}
-
 
 	
 	

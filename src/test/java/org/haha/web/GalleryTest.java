@@ -27,8 +27,8 @@ public class GalleryTest {
 		GalleryVO vo = new GalleryVO();
 		Date date = new Date();
 		vo.setGacreage(100);
-		vo.setGborrow_end(date);
-		vo.setGborrow_start(date);
+		vo.setGopening(date);
+		vo.setGclosing(date);
 		vo.setGcategory("사진");
 		vo.setGexplanation("test");
 		vo.setGesp("test");
@@ -61,8 +61,8 @@ public class GalleryTest {
 		Date date = new Date();
 		vo.setGno(405);
 		vo.setGacreage(100);
-		vo.setGborrow_end(date);
-		vo.setGborrow_start(date);
+//		vo.setGborrow_end(date);
+//		vo.setGborrow_start(date);
 		vo.setGcategory("사진");
 		vo.setGexplanation("test11");
 		vo.setGesp("test11");
@@ -84,7 +84,7 @@ public class GalleryTest {
 	}
 	@Test
 	public void deleteTest()throws Exception{
-		dao.delete(405);
+		dao.delete(407);
 	}
 
 	
@@ -96,8 +96,10 @@ public class GalleryTest {
 		GalleryVO vo = new GalleryVO();
 		Date date = new Date();
 		vo.setGacreage(100);
-		vo.setGborrow_end(date);
-		vo.setGborrow_start(date);
+//		vo.setGborrow_end(date);
+//		vo.setGborrow_start(date);
+		vo.setGopening(date);
+		vo.setGclosing(date);
 		vo.setGcategory("미술");
 		vo.setGexplanation("test22222");
 		vo.setGesp("test22222");
@@ -131,8 +133,8 @@ public class GalleryTest {
 		Date date = new Date();
 		vo.setGno(406);
 		vo.setGacreage(100);
-		vo.setGborrow_end(date);
-		vo.setGborrow_start(date);
+		vo.setGopening(date);
+		vo.setGclosing(date);
 		vo.setGcategory("사진");
 		vo.setGexplanation("test11");
 		vo.setGesp("test2333");

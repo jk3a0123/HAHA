@@ -5,11 +5,11 @@
 <mapper namespace="org.haha.mapper.GalleryMapper">
 
 <insert id="insert">
-INSERT INTO tbl_gallery ( gacreage , gaddress , garea , gborrow_start , gborrow_end , gcategory ,
+INSERT INTO tbl_gallery ( gacreage , gaddress , garea , gopening, gclosing , gcategory ,
 gesp , gexplanation , gallery_name , ghomepage , glat , glng , gdirector , gopenyear ,
 gosp, gpa , gphone , gregdate , gupdatedate , pno  , uno) 
 values 
-( #{gacreage} , #{gaddress} , #{garea} , #{gborrow_start} , #{gborrow_end} , #{gcategory} , #{gesp} , #{gexplanation} , 
+( #{gacreage} , #{gaddress} , #{garea} , #{gopening} , #{gclosing} , #{gcategory} , #{gesp} , #{gexplanation} , 
 #{gallery_name} , #{ghomepage}, #{glat} , #{glng} , #{gdirector} , #{gopenyear} , #{gosp} , #{gpa} , #{gphone} ,
 sysdate() , sysdate() , #{pno} , #{uno} )
 </insert>
@@ -25,8 +25,8 @@ update tbl_gallery set
 gacreage = #{gacreage} , 
 gaddress = #{gaddress} , 
 garea =#{garea} , 
-gborrow_start = #{gborrow_start} , 
-gborrow_end = #{gborrow_end} ,
+gopening = #{gopening} , 
+gclosing = #{gclosing} ,
 gcategory = #{gcategory} , 
 gesp = #{gesp} , 
 gexplanation = #{gexplanation} , 
