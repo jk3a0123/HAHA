@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("Gallery")
 public class GalleryController {
 
+	
 	@Inject
 	private GalleryService galleryService;
 	
@@ -27,6 +28,7 @@ public class GalleryController {
 		logger.info("main called...");
 		
 		logger.info("gno : " + gno);
+		
 		
 //		model.addAttribute("list", galleryService.view(gno));
 		
@@ -53,5 +55,8 @@ public class GalleryController {
 		logger.info("delete post called...");
 		
 	}
+	
+	
+	
 	
 }
