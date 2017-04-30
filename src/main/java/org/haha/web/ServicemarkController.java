@@ -29,6 +29,7 @@ public class ServicemarkController {
 		logger.info("uno" + smno);
 		
 		logger.info("view" + servicemark.view(smno));
+		
 	}
 
 	@GetMapping("register")
