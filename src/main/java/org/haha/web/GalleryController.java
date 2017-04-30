@@ -30,7 +30,7 @@ public class GalleryController {
 		logger.info("gno : " + gno);
 		
 		
-//		model.addAttribute("list", galleryService.view(gno));
+		model.addAttribute("list", galleryService.view(gno));
 		
 	}
 	
