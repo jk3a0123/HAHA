@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.haha.mapper.RecruitMapper">
+
+<insert id="insert">
+insert into tbl_recruit(rno, rctitle, rccontents)
+values(#{rno},#{rctitle},#{rccontents})
+</insert>
+
+<select id="read" resultType="recruitVO">
+select * from tbl_recruit where rcno = #{rcno}
+</select>
+
+<update id="update">
+update tbl_recruit set rctitle=#{rctitle}, rccontents=#{rccontents}, rcupdatedate = now() where rcno = #{rcno}
+</update>
+
+<delete id="delete">
+delete from tbl_recruit where rcno = #{rcno}
+</delete>
+
+</mapper>
