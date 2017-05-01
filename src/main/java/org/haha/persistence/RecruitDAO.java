@@ -2,7 +2,7 @@ package org.haha.persistence;
 
 import org.haha.domain.RecruitVO;
 
-public interface recruitDAO {
+public interface RecruitDAO {
 
 	public void create(RecruitVO vo) throws Exception;
 

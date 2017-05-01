@@ -7,7 +7,7 @@ import org.haha.domain.RecruitVO;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class RecruitDAOImpl implements recruitDAO {
+public class RecruitDAOImpl implements RecruitDAO {
 
 	@Inject
 	private SqlSession sqlSession;
