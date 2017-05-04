@@ -9,27 +9,5 @@
 </head>
 <body>
 
-${list.gno}
-${list.uno}
-${list.pno}
-${list.gopenyear}
-${list.gacreage}
-${list.gpa}
-${list.glat}
-${list.glng}
-${list.gexplanation}
-${list.gcategory}
-${list.gallery_name}
-${list.garea}
-${list.gaddress}
-${list.gdirector}
-${list.gesp}
-${list.gosp}
-${list.ghomepage}
-${list.gphone}
-${list.gopening}
-${list.gclosing}
-${list.gregdate}
-${list.gupdatedate}
 </body>
 </html>
