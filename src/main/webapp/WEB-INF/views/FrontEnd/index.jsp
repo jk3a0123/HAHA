@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="../resources/css/lib/awe-booking-font.css">
     <link rel="stylesheet" type="text/css" href="../resources/css/lib/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="../resources/css/lib/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/lib/jquery-ui.css"> 
     <!-- REVOLUTION DEMO -->
     <link rel="stylesheet" type="text/css" href="../resources/revslider-demo/css/settings.css">
 
