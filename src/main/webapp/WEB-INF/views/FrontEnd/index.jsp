@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="../resources/css/lib/awe-booking-font.css">
     <link rel="stylesheet" type="text/css" href="../resources/css/lib/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="../resources/css/lib/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../resources/css/lib/jquery-ui.css"> 
     <!-- REVOLUTION DEMO -->
     <link rel="stylesheet" type="text/css" href="../resources/revslider-demo/css/settings.css">
 
@@ -227,23 +227,23 @@
                         <img src="../resources/images/bg/1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                         <div class="tp-caption sfb fadeout slider-caption-sub slider-caption-sub-1" data-x="500" data-y="230" data-speed="700" data-start="1500" data-easing="easeOutBack">
-                          Last minute deal
+                          갤러리를 공유하고
                         </div>
 
-                        <div class="tp-caption sfb fadeout slider-caption slider-caption-1" data-x="center" data-y="280" data-speed="700" data-easing="easeOutBack"  data-start="2000">Top discount Paris Hotels</div>
+                        <div class="tp-caption sfb fadeout slider-caption slider-caption-1" data-x="center" data-y="280" data-speed="700" data-easing="easeOutBack"  data-start="2000">꿈을 이루어 보세요.</div>
                         
-                        <a href="#" class="tp-caption sfb fadeout awe-btn awe-btn-style3 awe-btn-slider" data-x="center" data-y="380" data-easing="easeOutBack" data-speed="700" data-start="2200">Book now</a>
+                      <!--   <a href="#" class="tp-caption sfb fadeout awe-btn awe-btn-style3 awe-btn-slider" data-x="center" data-y="380" data-easing="easeOutBack" data-speed="700" data-start="2200">Book now</a> -->
                     </li> 
 
                     <li data-slotamount="7" data-masterspeed="500" data-title="Slide title 2">
                         <img src="../resources/images/bg/1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                         <div class="tp-caption  sft fadeout slider-caption-sub slider-caption-sub-2" data-x="center" data-y="220" data-speed="700" data-start="1500" data-easing="easeOutBack">
-                          Check out the top weekly destination
+                         갤러리가 필요한 숨은 보석들을 위한 공간
                         </div>
 
                         <div class="tp-caption sft fadeout slider-caption slider-caption-2" data-x="center" data-y="260" data-speed="700" data-easing="easeOutBack"  data-start="2000">
-                            Travel with us
+                          쉐어 갤러리입니다.
                         </div>
                         
                         <a href="#" class="tp-caption sft fadeout awe-btn awe-btn-style3 awe-btn-slider" data-x="center" data-y="370" data-easing="easeOutBack" data-speed="700" data-start="2200">Book now</a>
@@ -253,10 +253,10 @@
                         <img src="../resources/images/bg/1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                         <div class="tp-caption lfl fadeout slider-caption slider-caption-3" data-x="center" data-y="260" data-speed="700" data-easing="easeOutBack"  data-start="1500">
-                            Gofar
+                            쉐어 갤러리
                         </div>
                         
-                        <div href="#" class="tp-caption lfr fadeout slider-caption-sub slider-caption-sub-3" data-x="center" data-y="365" data-easing="easeOutBack" data-speed="700" data-start="2000">Take you to every corner of the world</div>
+                        <div href="#" class="tp-caption lfr fadeout slider-caption-sub slider-caption-sub-3" data-x="center" data-y="365" data-easing="easeOutBack" data-speed="700" data-start="2000">최고의 콜라보를 이루어 보세요.</div>
                     </li> 
 
                 </ul>
@@ -272,126 +272,68 @@
                     <ul>
                         <li>
                             <a href="#awe-search-tabs-1">
-                                <i class="awe-icon awe-icon-briefcase"></i>
+                             <i class="awe-icon awe-icon-users"></i>
+                              
                             </a>
                         </li>
                         <li>
                             <a href="#awe-search-tabs-2">
-                                <i class="awe-icon awe-icon-hotel"></i>
+                             <i class="awe-icon awe-icon-hotel"></i> 
+                             
                             </a>
                         </li>
-                        <li>
-                            <a href="#awe-search-tabs-3">
-                                <i class="awe-icon awe-icon-plane"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#awe-search-tabs-4">
-                                <i class="awe-icon awe-icon-train"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#awe-search-tabs-5">
-                                <i class="awe-icon awe-icon-car"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#awe-search-tabs-6">
-                                <i class="awe-icon awe-icon-bus"></i>
-                            </a>
-                        </li>
+                      
                     </ul>
                     <div class="awe-search-tabs__content tabs__content">
                         <div id="awe-search-tabs-1" class="search-flight-hotel">
-                            <h2>Search Flight + Hotel</h2>
+                            <h2>콜라보 검색</h2>
                             <form>
                                 <div class="form-group">
                                     <div class="form-elements">
-                                        <label>From</label>
+                                        <label>위 치</label>
                                         <div class="form-item">
                                             <i class="awe-icon awe-icon-marker-1"></i>
                                             <input type="text" value="Ho Chi Minh, Hanoi, Vietnam">
                                         </div>
                                     </div>
-                                    <div class="form-elements">
-                                        <label>To</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="Ankara, Turkey">
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="form-elements">
-                                        <label>Depart on</label>
+                                        <label>시작일</label>
                                         <div class="form-item">
                                             <i class="awe-icon awe-icon-calendar"></i>
                                             <input type="text" class="awe-calendar" value="Check in">
                                         </div>
                                     </div>
                                     <div class="form-elements">
-                                        <label>Return on</label>
+                                        <label>종료일</label>
                                         <div class="form-item">
                                             <i class="awe-icon awe-icon-calendar"></i>
                                             <input type="text" class="awe-calendar" value="Check out">
                                         </div>
                                     </div>
-                                    <div class="form-elements">
-                                        <label>Adult</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                        <span>12 yo and above</span>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Kids</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                        <span>0-11 yo</span>
-                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="form-elements">
-                                        <label>Budget</label>
+                                        <label>인 원</label>
                                         <div class="form-item">
                                             <select class="awe-select">
-                                                <option>All types</option>
+                                                <option>----</option>
                                                 <option>1</option>
                                                 <option>2</option>
                                                 <option>3</option>
                                             </select>
                                         </div>
                                     </div>
-                                    <div class="form-elements">
-                                        <label>Hotel Rate</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>All types</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                    </div>
+         
                                 </div>
                                 <div class="form-actions">
-                                    <input type="submit" value="Find My Tour">
+                                    <input type="submit" value="콜라보 검색">
                                 </div>
                             </form>
                         </div>
                         <div id="awe-search-tabs-2" class="search-hotel">
-                            <h2>Where would you like to go?</h2>
+                            <h2> 갤러리 검색</h2>
                             <form>
                                 <div class="form-group">
                                     <div class="form-elements">
@@ -437,244 +379,8 @@
 
                             </form>
                         </div>
-                        <div id="awe-search-tabs-3" class="search-flight">
-                            <h2>Search Flight</h2>
-                            <form>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>From</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="Ho Chi Minh, Hanoi, Vietnam">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>To</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="Ankara, Turkey">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Depart on</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Check in">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Return on</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Check out">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Adult</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                        <span>12 yo and above</span>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Kids</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                        <span>0-11 yo</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Budget</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>All types</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-actions">
-                                    <input type="submit" value="Find My Flight">
-                                </div>
-                            </form>
-                        </div>
 
-                        <div id="awe-search-tabs-4" class="search-flight">
-                            <h2>Search Train</h2>
-                            <form>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>From</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="Ho Chi Minh, Hanoi, Vietnam">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>To</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="Ankara, Turkey">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Depart on</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Check in">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Return on</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Check out">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Adult</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                        <span>12 yo and above</span>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Kids</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>0</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                        <span>0-11 yo</span>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Budget</label>
-                                        <div class="form-item">
-                                            <select class="awe-select">
-                                                <option>All types</option>
-                                                <option>1</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-actions">
-                                    <input type="submit" value="Find My Flight">
-                                </div>
-                            </form>
-                        </div>
 
-                        <div id="awe-search-tabs-5" class="search-car">
-                            <h2>Search Car</h2>
-                            <form>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Picking up</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="City, airport...">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Droping off</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="City, airport...">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Pink off</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Date">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Drop off</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Date">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-actions">
-                                    <input type="submit" value="Find My Car">
-                                </div>
-
-                            </form>
-                        </div>
-
-                        <div id="awe-search-tabs-6" class="search-bus">
-                            <h2>Search Bus</h2>
-                            <form>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Picking up</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="City, airport...">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Droping off</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-marker-1"></i>
-                                            <input type="text" value="City, airport...">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="form-elements">
-                                        <label>Pink off</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Date">
-                                        </div>
-                                    </div>
-                                    <div class="form-elements">
-                                        <label>Drop off</label>
-                                        <div class="form-item">
-                                            <i class="awe-icon awe-icon-calendar"></i>
-                                            <input type="text" class="awe-calendar" value="Date">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-actions">
-                                    <input type="submit" value="Find My Car">
-                                </div>
-
-                            </form>
                         </div>
                     </div>
                 </div>
@@ -687,7 +393,7 @@
             <div class="container">
                 <div class="destination-grid-content">
                     <div class="section-title">
-                        <h3>More than <a href="destinations-grid.html">238 Destinations</a> is waiting</h3>
+                        <h3> 갤러리를 검색해보세요</h3>
                     </div>
                     <div class="row">
                         <div class="awe-masonry">
@@ -699,7 +405,7 @@
                                     </div>
                                 </a>
                                 <div class="item-title">
-                                    <h2><a href="#">Florenze</a></h2>
+                                    <h2><a href="#">카테고리</a></h2>
                                     <div class="item-cat">
                                         <ul>
                                             <li><a href="#">Italy</a></li>
@@ -720,7 +426,7 @@
                                     </div>
                                 </a>
                                 <div class="item-title">
-                                    <h2><a href="#">Toluca</a></h2>
+                                    <h2><a href="#">날 짜</a></h2>
                                     <div class="item-cat">
                                         <ul>
                                             <li><a href="#">USA</a></li>
@@ -741,7 +447,7 @@
                                     </div>
                                 </a>
                                 <div class="item-title">
-                                    <h2><a href="#">Venice</a></h2>
+                                    <h2><a href="#">지 역</a></h2>
                                     <div class="item-cat">
                                         <ul>
                                             <li><a href="#">Italy</a></li>
@@ -762,7 +468,7 @@
                                     </div>
                                 </a>
                                 <div class="item-title">
-                                    <h2><a href="#">Ohio</a></h2>
+                                    <h2><a href="#">가 격 </a></h2>
                                     <div class="item-cat">
                                         <ul>
                                             <li><a href="#">USA</a></li>
@@ -776,7 +482,7 @@
                             </div>
                             <!-- END / GALLERY ITEM -->
                             <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
+   <!--                          <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
                                         <img src="images/img/5.jpg" alt="">
@@ -794,92 +500,10 @@
                                     <span class="count">2531</span>
                                     available hotel
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- END / GALLERY ITEM -->
                             <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="images/img/6.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Mandives</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Mandives</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
-                            <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="images/img/7.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Istanbul</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Turkey</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
-                            <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="images/img/8.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Bali</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Thailand</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
-                            <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="images/img/9.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Phu Quoc</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Vietnam</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
+                           
                         </div>
                     </div>
                     <div class="more-destination">
@@ -897,8 +521,9 @@
                     <div class="col-md-8">
                         <div class="sale-flights-tabs tabs">
                             <ul>
-                                <li><a href="#sale-flights-tabs-1">Hot trips</a></li>
-                                <li><a href="#sale-flights-tabs-2">Recent items</a></li>
+                                <li><a href="#sale-flights-tabs-1">추 천</a></li>
+                                <li><a href="#sale-flights-tabs-2">급 구</a></li>
+                                <li><a href="#sale-flights-tabs-3">신 규</a></li>
                             </ul>
                             <div class="sale-flights-tabs__content tabs__content">
                                 <div id="sale-flights-tabs-1">
