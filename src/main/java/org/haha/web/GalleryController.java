@@ -23,13 +23,15 @@ public class GalleryController {
 	private static final Logger logger = LoggerFactory.getLogger(GalleryController.class);
 	
 	@GetMapping("view")
-	public void mainPage(Model model , Integer gno)throws Exception {
+	public String mainPage(Model model , Integer gno)throws Exception {
 		
 		logger.info("main called...");
 		
 		logger.info("gno : " + gno);
 		
+		model.addAttribute("GalleryVO", galleryService.view(gno));
 		
+		return "FrontEnd/Gallery/view";
 //		model.addAttribute("list", galleryService.view(gno));
 		
 	}
