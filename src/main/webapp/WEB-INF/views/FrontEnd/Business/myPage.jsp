@@ -223,7 +223,7 @@
         </header>
         <!-- END / HEADER PAGE -->
 
-        
+       
         <section class="checkout-section-demo">
             <div class="container">
                 <div class="row">
