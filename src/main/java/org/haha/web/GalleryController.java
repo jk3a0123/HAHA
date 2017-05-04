@@ -56,7 +56,16 @@ public class GalleryController {
 		
 	}
 	
+	@GetMapping("myPage")
+	public String myPage(Model model) throws Exception{
+		logger.info("들어왔다.");
+		return "FrontEnd/Business/myPage";
+	}
 	
-	
+	@GetMapping("myGallery")
+	public String myGallery(Model model) throws Exception{
+		logger.info("들어왔다.");
+		return "FrontEnd/Business/myGallery";
+	}
 	
 }
