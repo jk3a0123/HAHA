@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -218,7 +218,11 @@
             </div>
         </header>
         <!-- END / HEADER PAGE -->
-        
+         --%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+    <%@include file="header.jsp"%> 
         <!-- HERO SECTION -->
         <section class="hero-section">
             <div id="slider-revolution">
@@ -401,7 +405,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="images/img/1.jpg" alt="">
+                                        <img src="/resources/images/img/1.jpg" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -422,7 +426,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="images/img/2.jpg" alt="">
+                                        <img src="/resources/images/img/2.jpg" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -443,7 +447,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="images/img/3.jpg" alt="">
+                                        <img src="/resources/images/img/3.jpg" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -464,7 +468,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="images/img/4.jpg" alt="">
+                                        <img src="/resources/images/img/4.jpg" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -485,7 +489,7 @@
    <!--                          <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="images/img/5.jpg" alt="">
+                                        <img src="/resources/images/img/5.jpg" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -503,7 +507,93 @@
                             </div> -->
                             <!-- END / GALLERY ITEM -->
                             <!-- GALLERY ITEM -->
+<<<<<<< HEAD
                            
+=======
+                            <div class="awe-masonry__item">
+                                <a href="#">
+                                    <div class="image-wrap image-cover">
+                                        <img src="/resources/images/img/6.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="item-title">
+                                    <h2><a href="#">Mandives</a></h2>
+                                    <div class="item-cat">
+                                        <ul>
+                                            <li><a href="#">Mandives</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item-available">
+                                    <span class="count">2531</span>
+                                    available hotel
+                                </div>
+                            </div>
+                            <!-- END / GALLERY ITEM -->
+                            <!-- GALLERY ITEM -->
+                            <div class="awe-masonry__item">
+                                <a href="#">
+                                    <div class="image-wrap image-cover">
+                                        <img src="/resources/images/img/7.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="item-title">
+                                    <h2><a href="#">Istanbul</a></h2>
+                                    <div class="item-cat">
+                                        <ul>
+                                            <li><a href="#">Turkey</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item-available">
+                                    <span class="count">2531</span>
+                                    available hotel
+                                </div>
+                            </div>
+                            <!-- END / GALLERY ITEM -->
+                            <!-- GALLERY ITEM -->
+                            <div class="awe-masonry__item">
+                                <a href="#">
+                                    <div class="image-wrap image-cover">
+                                        <img src="/resources/images/img/8.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="item-title">
+                                    <h2><a href="#">Bali</a></h2>
+                                    <div class="item-cat">
+                                        <ul>
+                                            <li><a href="#">Thailand</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item-available">
+                                    <span class="count">2531</span>
+                                    available hotel
+                                </div>
+                            </div>
+                            <!-- END / GALLERY ITEM -->
+                            <!-- GALLERY ITEM -->
+                            <div class="awe-masonry__item">
+                                <a href="#">
+                                    <div class="image-wrap image-cover">
+                                        <img src="/resources/images/img/9.jpg" alt="">
+                                    </div>
+                                </a>
+                                <div class="item-title">
+                                    <h2><a href="#">Phu Quoc</a></h2>
+                                    <div class="item-cat">
+                                        <ul>
+                                            <li><a href="#">Vietnam</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item-available">
+                                    <span class="count">2531</span>
+                                    available hotel
+                                </div>
+                            </div>
+                            <!-- END / GALLERY ITEM -->
+>>>>>>> branch 'master' of https://github.com/jk3a0123/HAHA.git
                         </div>
                     </div>
                     <div class="more-destination">
@@ -532,10 +622,10 @@
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
-                                            <img src="images/trip/2.jpg" alt="">
+                                            <img src="/resources/images/trip/2.jpg" alt="">
                                         </div>
                                         <div class="trip-icon">
-                                            <img src="images/trip.jpg" alt="">
+                                            <img src="/resources/images/trip.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="item-body">
@@ -582,10 +672,10 @@
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
-                                            <img src="images/trip/3.jpg" alt="">
+                                            <img src="/resources/images/trip/3.jpg" alt="">
                                         </div>
                                         <div class="trip-icon">
-                                            <img src="images/trip.jpg" alt="">
+                                            <img src="/resources/images/trip.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="item-body">
@@ -632,10 +722,10 @@
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
-                                            <img src="images/trip/4.jpg" alt="">
+                                            <img src="/resources/images/trip/4.jpg" alt="">
                                         </div>
                                         <div class="trip-icon">
-                                            <img src="images/trip.jpg" alt="">
+                                            <img src="/resources/images/trip.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="item-body">
@@ -682,10 +772,10 @@
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
-                                            <img src="images/trip/5.jpg" alt="">
+                                            <img src="/resources/images/trip/5.jpg" alt="">
                                         </div>
                                         <div class="trip-icon">
-                                            <img src="images/trip.jpg" alt="">
+                                            <img src="/resources/images/trip.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="item-body">
@@ -732,10 +822,10 @@
                                 <div class="trip-item">
                                     <div class="item-media">
                                         <div class="image-cover">
-                                            <img src="images/trip/1.jpg" alt="">
+                                            <img src="/resources/images/trip/1.jpg" alt="">
                                         </div>
                                         <div class="trip-icon">
-                                            <img src="images/trip.jpg" alt="">
+                                            <img src="/resources/images/trip.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="item-body">
@@ -786,7 +876,7 @@
                                             <tr>
                                                 <td class="sale-flights-tabs__item-flight">
                                                     <div class="image-wrap">
-                                                        <img src="images/thumb/40-40.jpg" alt="">
+                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
                                                     </div>
                                                     <div class="td-content">
                                                         <div class="title">
@@ -838,7 +928,7 @@
                                             <tr>
                                                 <td class="sale-flights-tabs__item-flight">
                                                     <div class="image-wrap">
-                                                        <img src="images/thumb/40-40.jpg" alt="">
+                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
                                                     </div>
                                                     <div class="td-content">
                                                         <div class="title">
@@ -885,7 +975,7 @@
                                             <tr>
                                                 <td class="sale-flights-tabs__item-flight">
                                                     <div class="image-wrap">
-                                                        <img src="images/thumb/40-40.jpg" alt="">
+                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
                                                     </div>
                                                     <div class="td-content">
                                                         <div class="title">
@@ -932,7 +1022,7 @@
                                             <tr>
                                                 <td class="sale-flights-tabs__item-flight">
                                                     <div class="image-wrap">
-                                                        <img src="images/thumb/40-40.jpg" alt="">
+                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
                                                     </div>
                                                     <div class="td-content">
                                                         <div class="title">
@@ -979,7 +1069,7 @@
                                             <tr>
                                                 <td class="sale-flights-tabs__item-flight">
                                                     <div class="image-wrap">
-                                                        <img src="images/thumb/40-40.jpg" alt="">
+                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
                                                     </div>
                                                     <div class="td-content">
                                                         <div class="title">
@@ -1026,7 +1116,7 @@
                                             <tr>
                                                 <td class="sale-flights-tabs__item-flight">
                                                     <div class="image-wrap">
-                                                        <img src="images/thumb/40-40.jpg" alt="">
+                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
                                                     </div>
                                                     <div class="td-content">
                                                         <div class="title">
@@ -1132,200 +1222,7 @@
 
 
         <!-- FOOTER PAGE -->
-        <footer id="footer-page">
-            <div class="container">
-                <div class="row">
-                    <!-- WIDGET -->
-                    <div class="col-md-3">
-                        <div class="widget widget_contact_info">
-                            <div class="widget_background">
-                                <div class="widget_background__half">
-                                    <div class="bg"></div>
-                                </div>
-                                <div class="widget_background__half">
-                                    <div class="bg"></div>
-                                </div>
-                            </div>
-                            <div class="logo">
-                                <img src="images/logo-footer.png" alt="">
-                            </div>
-                            <div class="widget_content">
-                                <p>25 California Avenue, Santa Monica, California. USA</p>
-                                <p>+1-888-8765-1234</p>
-                                <a href="#">contact@gofar.com</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END / WIDGET -->
-
-                    <!-- WIDGET -->
-                    <div class="col-md-2">
-                        <div class="widget widget_about_us">
-                            <h3>About Us</h3>
-                            <div class="widget_content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel dignissim dolor. Ut risus orci, aliquam sit amet semper eget, egestas aliquam felis.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END / WIDGET -->
-
-                    <!-- WIDGET -->
-                    <div class="col-md-2">
-                        <div class="widget widget_categories">
-                            <h3>Categiries</h3>
-                            <ul>
-                                <li><a href="#">Countries</a></li>
-                                <li><a href="#">Regions</a></li>
-                                <li><a href="#">Cities</a></li>
-                                <li><a href="#">Districts</a></li>
-                                <li><a href="#">Countries</a></li>
-                                <li><a href="#">Airports</a></li>
-                                <li><a href="#">Hotels</a></li>
-                                <li><a href="#">Places of interest</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- END / WIDGET -->
-
-                    <!-- WIDGET -->
-                    <div class="col-md-2">
-                        <div class="widget widget_recent_entries">
-                            <h3>Recent Blog</h3>
-                            <ul>
-                                <li><a href="#">Countries</a></li>
-                                <li><a href="#">Regions</a></li>
-                                <li><a href="#">Cities</a></li>
-                                <li><a href="#">Districts</a></li>
-                                <li><a href="#">Countries</a></li>
-                                <li><a href="#">Airports</a></li>
-                                <li><a href="#">Hotels</a></li>
-                                <li><a href="#">Places of interest</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- END / WIDGET -->
-
-                    <!-- WIDGET -->
-                    <div class="col-md-3">
-                        <div class="widget widget_follow_us">
-                            <div class="widget_content">
-                                <p>For Special booking request, please call</p>
-                                <span class="phone">099-099-000</span>
-                                <div class="awe-social">
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-youtube-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END / WIDGET -->
-                </div>
-                <div class="copyright">
-                    <p>©2015 GOFAR travel™ All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-        <!-- END / FOOTER PAGE -->
-
-    </div>
-    <!-- END / PAGE WRAP -->
-
-
-    <!-- LOAD JQUERY -->
-    <script type="text/javascript" src="../resources/js/lib/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/jquery.owl.carousel.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/theia-sticky-sidebar.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/jquery.magnific-popup.min.js"></script>
-    <script type='text/javascript' src="../resources/js/lib/jquery-ui.js"></script>
-    <script type="text/javascript" src="../resources/js/scripts.js"></script>
-
-    <!-- REVOLUTION DEMO -->
-    <script type="text/javascript" src="../resources/revslider-demo/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="../resources/revslider-demo/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript">
-        if($('#slider-revolution').length) {
-            $('#slider-revolution').show().revolution({
-                ottedOverlay:"none",
-                delay:10000,
-                startwidth:1600,
-                startheight:650,
-                hideThumbs:200,
-
-                thumbWidth:100,
-                thumbHeight:50,
-                thumbAmount:5,
-                
-                                        
-                simplifyAll:"off",
-
-                navigationType:"none",
-                navigationArrows:"solo",
-                navigationStyle:"preview4",
-
-                touchenabled:"on",
-                onHoverStop:"on",
-                nextSlideOnWindowFocus:"off",
-
-                swipe_threshold: 0.7,
-                swipe_min_touches: 1,
-                drag_block_vertical: false,
-                
-                parallax:"mouse",
-                parallaxBgFreeze:"on",
-                parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
-                                        
-                                        
-                keyboardNavigation:"off",
-
-                navigationHAlign:"center",
-                navigationVAlign:"bottom",
-                navigationHOffset:0,
-                navigationVOffset:20,
-
-                soloArrowLeftHalign:"left",
-                soloArrowLeftValign:"center",
-                soloArrowLeftHOffset:20,
-                soloArrowLeftVOffset:0,
-
-                soloArrowRightHalign:"right",
-                soloArrowRightValign:"center",
-                soloArrowRightHOffset:20,
-                soloArrowRightVOffset:0,
-
-                shadow:0,
-                fullWidth:"on",
-                fullScreen:"off",
-
-                spinner:"spinner2",
-                                        
-                stopLoop:"off",
-                stopAfterLoops:-1,
-                stopAtSlide:-1,
-
-                shuffle:"off",
-
-                autoHeight:"off",
-                forceFullWidth:"off",
-                
-                
-                
-                hideThumbsOnMobile:"off",
-                hideNavDelayOnMobile:1500,
-                hideBulletsOnMobile:"off",
-                hideArrowsOnMobile:"off",
-                hideThumbsUnderResolution:0,
-
-                hideSliderAtLimit:0,
-                hideCaptionAtLimit:0,
-                hideAllCaptionAtLilmit:0,
-                startWithSlide:0
-            });
-        }
-    </script>
+       <%@include file="footer.jsp"%>
 
 </body>
 </html>
