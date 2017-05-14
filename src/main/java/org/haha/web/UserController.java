@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("User")
 public class UserController {
 
-	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 	
 	@Inject
 	private UserService userService;
@@ -64,5 +64,15 @@ public class UserController {
 		logger.info("gno : " + gno);
 	}
 	
+	@GetMapping("myPage")
+	public String myPage(Model model) throws Exception{
+		logger.info("들어왔다.");
+		return "FrontEnd/Customer/myPage";
+	}
 	
+	@GetMapping("myGallery")
+	public String myGallery(Model model) throws Exception{
+		logger.info("들어왔다.");
+		return "FrontEnd/Customer/myGallery";
+	}
 }
