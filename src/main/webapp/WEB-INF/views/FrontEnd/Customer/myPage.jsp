@@ -223,7 +223,7 @@
         </header>
         <!-- END / HEADER PAGE -->
 
-        
+       
         <section class="checkout-section-demo">
             <div class="container">
                 <div class="row">
@@ -238,9 +238,9 @@
                     <div class="col-lg-3">
                         <div class="checkout-page__sidebar">
                             <ul>
-                                <li><a href="myPage">예약 현황</a></li>
-                                <li class="current"><a href="myGallery">갤러리 현황</a></li>
-                               <!--  <li><a href="checkout-complete.html">Complete order</a></li> -->
+                                <li class="current"><a href="myPage">예약 현황</a></li>
+                                <li><a href="myGallery">갤러리 현황</a></li>
+                             <!--    <li><a href="checkout-complete.html">Complete order</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -248,219 +248,197 @@
                         <div class="checkout-page__content">
                             <div class="yourcart-content">
                                 <div class="content-title">
-                                    <h2><i class="awe-icon awe-icon-cart"></i>갤러리 현황</h2>
+                                    <h2><i class="awe-icon awe-icon-cart"></i>예약 현황</h2>
                                 </div>
-                                  <div class="sale-flights-tabs__content tabs__content">
-                                <div id="sale-flights-tabs-1">
-                                    
-                                    <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/2.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">Spectacular City Views</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">수정 하기</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/3.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">Romantic New York</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">수정 하기</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/4.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">NYC Family Fun Pass - Winter</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">수정 하기</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/5.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">NYC Land &amp; Sea</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">수정 하기</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                
-                                <!-- END / ITEM -->
-                                </div>
-                               
-                            </div>
-                                   
-                                    
+                                 <div class="input-group input-append date" id="dateRangePicker"> </div>
+                                <div class="cart-content">
+                                    <table class="cart-table">
+                                        <thead>
+                                            <tr>
+                                                <th class="product-remove"></th>
+                                              
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                           
+                                        </tbody>
+                                    </table>
+                                    <table class="cart-table">
+                                        <thead>
+                                            <tr>
+                                                <th class="product-remove"></th>
+                                                <th class="product-name">콜라보 이름(ex> TEAM HAHA)</th>
+                                                <th class="product-price"></th>
+                                                <th class="product-quantity"></th>
+                                                <th class="product-subtotal">$ 7.909</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="product-remove">
+                                                    <a href="#"><i class="awe-icon awe-icon-close-o"></i></a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <span>이승찬</span>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="amount">$ 748/ticket</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="quantity buttons_added">
+                                                        <button type="button" class="minus">
+                                                            <i class="fa fa-caret-up"></i>
+                                                        </button>
+                                                        <input type="number" class="qty" value="2">
+                                                        <button type="button" class="plus">
+                                                            <i class="fa fa-caret-down"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="amount">$ 253</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-remove">
+                                                    <a href="#"><i class="awe-icon awe-icon-close-o"></i></a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <span>Main car</span>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="amount">$ 748/day</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="quantity buttons_added">
+                                                        <button type="button" class="minus">
+                                                            <i class="fa fa-caret-up"></i>
+                                                        </button>
+                                                        <input type="number" class="qty" value="2">
+                                                        <button type="button" class="plus">
+                                                            <i class="fa fa-caret-down"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="amount">$ 253</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-remove">
+                                                    <a href="#"><i class="awe-icon awe-icon-close-o"></i></a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <span>extra driver</span>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="amount">$ 89/driver</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="quantity buttons_added">
+                                                        <button type="button" class="minus">
+                                                            <i class="fa fa-caret-up"></i>
+                                                        </button>
+                                                        <input type="number" class="qty" value="2">
+                                                        <button type="button" class="plus">
+                                                            <i class="fa fa-caret-down"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="amount">$ 253</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-remove">
+                                                    <a href="#"><i class="awe-icon awe-icon-close-o"></i></a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <span>name of extra service</span>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="amount">$ 89/set</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="quantity buttons_added">
+                                                        <button type="button" class="minus">
+                                                            <i class="fa fa-caret-up"></i>
+                                                        </button>
+                                                        <input type="number" class="qty" value="2">
+                                                        <button type="button" class="plus">
+                                                            <i class="fa fa-caret-down"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="amount">$ 253</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="cart-table">
+                                        <thead>
+                                            <tr>
+                                                <th class="product-remove"></th>
+                                                <th class="product-name">Product Category 3 eg.Trip</th>
+                                                <th class="product-price"></th>
+                                                <th class="product-quantity"></th>
+                                                <th class="product-subtotal">$ 7.909</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="product-remove">
+                                                    <a href="#"><i class="awe-icon awe-icon-close-o"></i></a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <span>Adult</span>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="amount">$ 89/ticket</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="quantity buttons_added">
+                                                        <button type="button" class="minus">
+                                                            <i class="fa fa-caret-up"></i>
+                                                        </button>
+                                                        <input type="number" class="qty" value="2">
+                                                        <button type="button" class="plus">
+                                                            <i class="fa fa-caret-down"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="amount">$ 253</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="product-remove">
+                                                    <a href="#"><i class="awe-icon awe-icon-close-o"></i></a>
+                                                </td>
+                                                <td class="product-name">
+                                                    <span>Kid</span>
+                                                </td>
+                                                <td class="product-price">
+                                                    <span class="amount">$ 89/ticket</span>
+                                                </td>
+                                                <td class="product-quantity">
+                                                    <div class="quantity buttons_added">
+                                                        <button type="button" class="minus">
+                                                            <i class="fa fa-caret-up"></i>
+                                                        </button>
+                                                        <input type="number" class="qty" value="2">
+                                                        <button type="button" class="plus">
+                                                            <i class="fa fa-caret-down"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>
+                                                <td class="product-subtotal">
+                                                    <span class="amount">$ 253</span>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
                                     <div class="cart-footer">
                                       <!--   <div class="cart-subtotal">
@@ -508,8 +486,8 @@
                                         </div> -->
                                         
                                         <div class="cart-submit">
-                                            <!-- <input type="submit" value="수정하기" class="update-cart"> -->
-                                            <input type="submit" value="갤러리 생성" class="checkout">
+                                            <input type="submit" value="수정하기" class="update-cart">
+                                            <input type="submit" value="Continue Checkout" class="checkout">
                                         </div>
                                     </div>
                                 </div>

@@ -20,7 +20,6 @@ public class HomeController {
 	public void mainPage(Model model)throws Exception {
 		
 		logger.info("main called...");
-		
 	}
 	
 	@GetMapping("list")
