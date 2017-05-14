@@ -193,7 +193,7 @@
                     <!-- END / NAVIGATION -->
                     
                     <!-- SEARCH BOX -->
-                    <div class="search-box">
+                     <div class="search-box">
                         <span class="searchtoggle"><i class="awe-icon awe-icon-search"></i></span>
                         <form class="form-search">
                             <div class="form-item">
