@@ -23,4 +23,10 @@ public class HomeController {
 		
 	}
 	
+	@GetMapping("list")
+public void listPage() throws Exception{
+		
+		logger.info("list page .............");
+		
+	}
 }

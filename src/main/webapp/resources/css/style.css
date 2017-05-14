@@ -1964,17 +1964,7 @@ span.dropcap {
   width: 25%;
   z-index: 9;
 }
-.awe-masonry .awe-masonry__item:nth-child(3) {
-  width: 50%;
-}
-.awe-masonry .awe-masonry__item:nth-child(3) .item-title {
-  top: 45px;
-  left: 45px;
-}
-.awe-masonry .awe-masonry__item:nth-child(3) .item-available {
-  bottom: 45px;
-  right: 45px;
-}
+
 .awe-masonry .awe-masonry__item > a {
   position: relative;
   display: block;
