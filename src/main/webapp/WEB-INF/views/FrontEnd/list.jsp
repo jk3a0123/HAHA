@@ -203,7 +203,6 @@
 				</div>
 				<!-- END / SEARCH BOX -->
 
-
 				<!-- TOGGLE MENU RESPONSIVE -->
 				<a class="toggle-menu-responsive" href="#">
 					<div class="hamburger">
