@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%-- <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 	<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
@@ -214,8 +214,11 @@
 			</div>
 		</div>
 		</header>
-		<!-- END / HEADER PAGE -->
-
+		<!-- END / HEADER PAGE --> --%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+    <%@include file="header.jsp"%> 
 		<section class="travelling-block-section-demo awe-parallax">
 		<div class="container">
 			<div class="travelling-block text-center">
@@ -722,11 +725,11 @@
 
 
 
-		<!-- FOOTER PAGE -->
+	<!-- <!-- 	FOOTER PAGE
 		<footer id="footer-page">
 		<div class="container">
 			<div class="row">
-				<!-- WIDGET -->
+				WIDGET
 				<div class="col-md-3">
 					<div class="widget widget_contact_info">
 						<div class="widget_background">
@@ -747,9 +750,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- END / WIDGET -->
+				END / WIDGET
 
-				<!-- WIDGET -->
+				WIDGET
 				<div class="col-md-2">
 					<div class="widget widget_about_us">
 						<h3>About Us</h3>
@@ -760,9 +763,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- END / WIDGET -->
+				END / WIDGET
 
-				<!-- WIDGET -->
+				WIDGET
 				<div class="col-md-2">
 					<div class="widget widget_categories">
 						<h3>Categiries</h3>
@@ -778,9 +781,9 @@
 						</ul>
 					</div>
 				</div>
-				<!-- END / WIDGET -->
+				END / WIDGET
 
-				<!-- WIDGET -->
+				WIDGET
 				<div class="col-md-2">
 					<div class="widget widget_recent_entries">
 						<h3>Recent Blog</h3>
@@ -796,9 +799,9 @@
 						</ul>
 					</div>
 				</div>
-				<!-- END / WIDGET -->
+				END / WIDGET
 
-				<!-- WIDGET -->
+				WIDGET
 				<div class="col-md-3">
 					<div class="widget widget_follow_us">
 						<div class="widget_content">
@@ -813,19 +816,19 @@
 						</div>
 					</div>
 				</div>
-				<!-- END / WIDGET -->
+				END / WIDGET
 			</div>
 			<div class="copyright">
 				<p>©2015 GOFAR travel™ All rights reserved.</p>
 			</div>
 		</div>
 		</footer>
-		<!-- END / FOOTER PAGE -->
+		END / FOOTER PAGE
 
 	</div>
-	<!-- END / PAGE WRAP -->
+	END / PAGE WRAP
 
-	<!-- LOAD JQUERY -->
+	LOAD JQUERY
 	<script type="text/javascript"
 		src="../resources/js/lib/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript"
@@ -835,7 +838,8 @@
 	<script type="text/javascript"
 		src="../resources/js/lib/jquery.owl.carousel.js"></script>
 	<script type='text/javascript' src="../resources/js/lib/jquery-ui.js"></script>
-	<script type="text/javascript" src="../resources/js/scripts.js"></script>
+	<script type="text/javascript" src="../resources/js/scripts.js"></script> -->
+	  <%@include file="footer.jsp"%>
 	<script>
 	$(function(){
 	
@@ -851,5 +855,6 @@
 		
 	});
 	</script>
+	
 </body>
 </html>
