@@ -76,16 +76,16 @@
 									<div class="form-elements from">
 										<label>지역</label>
 										<div class="form-item">
-											<i class="awe-icon awe-icon-marker-1"></i> <input type="text"
+											<i class="awe-icon awe-icon-marker-1"></i> <input class = "area" type="text"
 												value="서울, 경기도, 인천">
 										</div>
 									</div>
 									<div class="form-elements to">
 										<label>카테고리</label>
 										<div class="form-item">
-											<select class="awe-select">
-												<option>For business</option>
-												<option>For business</option>
+											<select class="category">
+												<option>For business1</option>
+												<option>For business2</option>
 											</select>
 										</div>
 									</div>
@@ -94,21 +94,21 @@
 									<div class="form-elements form-checkin">
 										<label>Depart on</label>
 										<div class="form-item">
-											<i class="awe-icon awe-icon-calendar"></i> <input type="text"
+											<i class="awe-icon awe-icon-calendar"></i> <input type="text" id = "departon"
 												class="awe-calendar" value="Check in">
 										</div>
 									</div>
 									<div class="form-elements form-checkout">
 										<label>Return on</label>
 										<div class="form-item">
-											<i class="awe-icon awe-icon-calendar"></i> <input type="text"
+											<i class="awe-icon awe-icon-calendar"></i> <input type="text" id = "returnon"
 												class="awe-calendar" value="Check out">
 										</div>
 									</div>
 									<div class="form-elements form-references">
 										<label>운영주체성격</label>
 										<div class="select-item">
-											<select class="awe-select">
+											<select class="osp">
 												<option>For business</option>
 												<option>For business</option>
 											</select>
@@ -130,7 +130,7 @@
 									<div class="form-elements currency">
 										<label>인원</label>
 										<div class="select-item">
-											<select class="awe-select">
+											<select class="capacity">
 												<option> 1 </option>
 												<option> 2 </option>
 												<option> 3 </option>
@@ -143,7 +143,7 @@
 						</div>
 					</div>
 						<div class="form-actions" >
-							<input type="submit" value="Find My Gallery">
+							<input class = "submit" type="submit" value="Find My Gallery">
 						</div>
 						</form>
 				</div>
@@ -522,6 +522,20 @@
 		$(".purpose").on("click", function(){
 			$(".form-actions").hide();
 		});
+		
+		
+		$(".submit").on("click", function(event){
+			event.preventDefault();
+			console.log($(".area").val());
+			console.log($("#departon").val());
+			console.log($("#returnon").val());
+			console.log($(".to")[1].innerText);
+			console.log($(".category").val());
+			console.log($(".osp").val());
+			console.log($(".capacity").val());
+			
+		});
+		
 		
 	});
 	</script>
