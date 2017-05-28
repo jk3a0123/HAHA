@@ -53,7 +53,7 @@
                 <div class="container">
                     <!-- LOGO -->
                     <div class="logo">
-                        <a href="../resources/index.html"><img src="../resources/images/logo.png" alt=""></a>
+                        <a href="/FrontEnd/index.html"><img src="../resources/images/logo.png" alt=""></a>
                     </div>
                     <!-- END / LOGO -->
                     
@@ -72,7 +72,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="destinations-list.html">갤러리페이지</a>
+                                <a href="list.jsp">갤러리페이지</a>
                                 <ul class="sub-menu">
                                     <li><a href="list">List</a></li>
                                     <li><a href="destinations-grid.html">Grid</a></li>                
