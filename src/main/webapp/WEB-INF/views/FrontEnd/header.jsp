@@ -74,7 +74,7 @@
                             <li class="menu-item-has-children">
                                 <a href="destinations-list.html">갤러리페이지</a>
                                 <ul class="sub-menu">
-                                    <li><a href="destinations-list.html">List</a></li>
+                                    <li><a href="list">List</a></li>
                                     <li><a href="destinations-grid.html">Grid</a></li>                
                                 </ul>
                             </li>
@@ -87,9 +87,6 @@
                                     <li><a href="trip-detail-dark.html">Trips Detail (Dark)</a></li>
                                 </ul>
                             </li>
-                            
-                            
-                           
                             
                             <li class="menu-item-has-children">
                                 <a href="#">Pages</a>
