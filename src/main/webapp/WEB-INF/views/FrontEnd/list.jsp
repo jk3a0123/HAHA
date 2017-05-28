@@ -530,6 +530,7 @@
 			console.log($("#departon").val());
 			console.log($("#returnon").val());
 			console.log($(".to")[1].innerText);
+			console.log($(".from")[1].innerText);			
 			console.log($(".category").val());
 			console.log($(".osp").val());
 			console.log($(".capacity").val());

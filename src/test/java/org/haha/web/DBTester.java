@@ -11,7 +11,7 @@ public class DBTester {
 	public void DBConnectTest() throws Exception {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con = DriverManager.getConnection(
-				"jdbc:mysql://192.168.43.214:3306/TEAM_HAHA?useSSL=false&serverTimezone=Asia/Seoul", "makemoney", "makemoney");
+				"jdbc:mysql://192.168.43.214:3306/team_haha?useSSL=false&serverTimezone=Asia/Seoul", "makemoney", "makemoney");
 		System.out.println(con);
 		con.close();
 	}
