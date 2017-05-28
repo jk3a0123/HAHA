@@ -4,6 +4,7 @@ import javax.inject.Inject;
 
 import org.haha.domain.GalleryVO;
 import org.haha.service.GalleryService;
+import org.haha.service.ImageService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -20,16 +21,21 @@ public class GalleryController {
 	@Inject
 	private GalleryService galleryService;
 	
+	@Inject
+	private ImageService imageService;
+	
 	private static final Logger logger = LoggerFactory.getLogger(GalleryController.class);
 	
 	@GetMapping("view")
-	public String mainPage(Model model , Integer gno)throws Exception {
+	public String mainPage(Model model , Integer gno )throws Exception {
 		
 		logger.info("main called...");
 		
 		logger.info("gno : " + gno);
 		
 		model.addAttribute("GalleryVO", galleryService.view(gno));
+		
+	
 		
 		return "FrontEnd/Gallery/view";
 //		model.addAttribute("list", galleryService.view(gno));

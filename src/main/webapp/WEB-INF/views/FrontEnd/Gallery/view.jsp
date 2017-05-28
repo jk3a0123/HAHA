@@ -48,11 +48,11 @@ html, body {
 						</div>
 					</div>
 					<div class="product-address">
-						<span>${GalleryVO.gaddress} | ${GalleryVO.gphone}</span>
+						<span>${GalleryVO.gaddress} | ${GalleryVO.gphone} | ${GalleryVO.gdirector}</span>
 					</div>
-					<div class="product-email">
+<!-- 					<div class="product-email">
 						<i class="fa fa-envelope"></i> <a href="#">Send Email Inquiry</a>
-					</div>
+					</div> -->
 
 					<div class="rating-trip-reviews">
 						<div class="item good">
@@ -125,16 +125,16 @@ html, body {
 					<div class="product-slider-wrapper">
 						<div class="product-slider">
 							<div class="item">
-								<img src="../resources/images/img/1.jpg" alt="">
+								<img src="${ImageVO.iroute}" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/2.jpg" alt="">
+								<img src="../resources/images/img/demo02.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/3.jpg" alt="">
+								<img src="../resources/images/img/demo03.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/4.jpg" alt="">
+								<img src="../resources/images/img/demo04.jpg" alt="">
 							</div>
 							<div class="item">
 								<img src="../resources/images/img/5.jpg" alt="">
@@ -155,16 +155,16 @@ html, body {
 						<div class="product-slider-thumb-row">
 							<div class="product-slider-thumb">
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-1.jpg" alt="">
+									<img src="../resources/images/img/demo01.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-2.jpg" alt="">
+									<img src="../resources/images/img/demo02.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-3.jpg" alt="">
+									<img src="../resources/images/img/demo03.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-4.jpg" alt="">
+									<img src="../resources/images/img/demo04.jpg" alt="">
 								</div>
 								<div class="item">
 									<img src="../resources/images/img/demo-thumb-5.jpg" alt="">
