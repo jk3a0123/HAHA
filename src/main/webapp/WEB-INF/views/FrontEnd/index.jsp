@@ -7,7 +7,7 @@
             <div id="slider-revolution">
                 <ul>
                     <li data-slotamount="7" data-masterspeed="500" data-title="Slide title 1">
-                        <img src="../resources/images/bg/1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
+                        <img src="../resources/images/gallery1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                         <div class="tp-caption sfb fadeout slider-caption-sub slider-caption-sub-1" data-x="500" data-y="230" data-speed="700" data-start="1500" data-easing="easeOutBack">
                           갤러리를 공유하고
@@ -19,7 +19,7 @@
                     </li> 
 
                     <li data-slotamount="7" data-masterspeed="500" data-title="Slide title 2">
-                        <img src="../resources/images/bg/1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
+                        <img src="../resources/images/gallery2.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                         <div class="tp-caption  sft fadeout slider-caption-sub slider-caption-sub-2" data-x="center" data-y="220" data-speed="700" data-start="1500" data-easing="easeOutBack">
                          갤러리가 필요한 숨은 보석들을 위한 공간
@@ -33,7 +33,7 @@
                     </li>
 
                     <li data-slotamount="7" data-masterspeed="500" data-title="Slide title 3">
-                        <img src="../resources/images/bg/1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
+                        <img src="../resources/images/gallery3.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                         <div class="tp-caption lfl fadeout slider-caption slider-caption-3" data-x="center" data-y="260" data-speed="700" data-easing="easeOutBack"  data-start="1500">
                             쉐어 갤러리
@@ -184,7 +184,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/1.jpg" alt="">
+                                        <img src="/resources/images/category.png" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -205,7 +205,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/2.jpg" alt="">
+                                        <img src="/resources/images/calendar.png" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -226,7 +226,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/3.jpg" alt="">
+                                        <img src="/resources/images/map.png" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -247,7 +247,7 @@
                             <div class="awe-masonry__item">
                                 <a href="#">
                                     <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/4.jpg" alt="">
+                                        <img src="/resources/images/price.png" alt="">
                                     </div>
                                 </a>
                                 <div class="item-title">
@@ -264,115 +264,9 @@
                                 </div>
                             </div>
                             <!-- END / GALLERY ITEM -->
+                            
                             <!-- GALLERY ITEM -->
-   <!--                          <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/5.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Venice</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Italy</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div> -->
-                            <!-- END / GALLERY ITEM -->
-                            <!-- GALLERY ITEM -->
-<<<<<<< HEAD
-                           
-=======
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/6.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Mandives</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Mandives</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
-                            <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/7.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Istanbul</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Turkey</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
-                            <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/8.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Bali</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Thailand</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
-                            <!-- GALLERY ITEM -->
-                            <div class="awe-masonry__item">
-                                <a href="#">
-                                    <div class="image-wrap image-cover">
-                                        <img src="/resources/images/img/9.jpg" alt="">
-                                    </div>
-                                </a>
-                                <div class="item-title">
-                                    <h2><a href="#">Phu Quoc</a></h2>
-                                    <div class="item-cat">
-                                        <ul>
-                                            <li><a href="#">Vietnam</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="item-available">
-                                    <span class="count">2531</span>
-                                    available hotel
-                                </div>
-                            </div>
-                            <!-- END / GALLERY ITEM -->
->>>>>>> branch 'master' of https://github.com/jk3a0123/HAHA.git
+
                         </div>
                     </div>
                     <div class="more-destination">
@@ -447,451 +341,18 @@
                                     </div>
                                 </div>
                                 <!-- END / ITEM -->
+                                
+                                
+                                
+                                
                                 <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/3.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">Romantic New York</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">Book now</a>
-                                    </div>
-                                </div>
+                                
                                 <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/4.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">NYC Family Fun Pass - Winter</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">Book now</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/5.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">NYC Land &amp; Sea</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">Book now</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
-                                <!-- ITEM -->
-                                <div class="trip-item">
-                                    <div class="item-media">
-                                        <div class="image-cover">
-                                            <img src="/resources/images/trip/1.jpg" alt="">
-                                        </div>
-                                        <div class="trip-icon">
-                                            <img src="/resources/images/trip.jpg" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="item-body">
-                                        <div class="item-title">
-                                            <h2>
-                                                <a href="#">Spectacular City Views</a>
-                                            </h2>
-                                        </div>
-                                        <div class="item-list">
-                                            <ul>
-                                                <li>4 Attractions</li>
-                                                <li>2 days, 1 night</li>
-                                            </ul>
-                                        </div>
-                                        <div class="item-footer">
-                                            <div class="item-rate">
-                                                <span>7.5 Good</span>
-                                            </div>
-                                            <div class="item-icon">
-                                                <i class="awe-icon awe-icon-gym"></i>
-                                                <i class="awe-icon awe-icon-car"></i>
-                                                <i class="awe-icon awe-icon-food"></i>
-                                                <i class="awe-icon awe-icon-level"></i>
-                                                <i class="awe-icon awe-icon-wifi"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item-price-more">
-                                        <div class="price">
-                                            Adult ticket
-                                            <ins>
-                                                <span class="amount">$200</span>
-                                            </ins>
-                                            <del>
-                                                <span class="amount">$200</span>
-                                            </del>
-                                    
-                                        </div>
-                                        <a href="#" class="awe-btn">Book now</a>
-                                    </div>
-                                </div>
-                                <!-- END / ITEM -->
+                                <!--  급구 텝  --> 
                                 </div>
                                 <div id="sale-flights-tabs-2">
-                                    
                                     <table class="sale-flights-tabs__table">
                                         <tbody>
-                                            <tr>
-                                                <td class="sale-flights-tabs__item-flight">
-                                                    <div class="image-wrap">
-                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
-                                                    </div>
-                                                    <div class="td-content">
-                                                        <div class="title">
-                                                            <h3>Lufthansa</h3>
-                                                        </div>
-                                                        <ul>
-                                                            <li>
-                                                                <span class="from">HAN <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">SVO</span>
-                                                            </li>
-                                                            <li>
-                                                                <span class="from">SVO <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">JFK</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="line"></div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-depart">
-                                                    <h4>Depart</h4>
-                                                    <ul>
-                                                        <li>10:25</li>
-                                                        <li>10:25</li>
-                                                    </ul>
-                                                    <div class="line"></div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-arrive">
-                                                    <h4>Arrive</h4>
-                                                    <ul>
-                                                        <li>12:30</li>
-                                                        <li>12:30</li>
-                                                    </ul>
-                                                    <div class="line"></div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-duration">
-                                                    <h4>Duration</h4>
-                                                    <ul>
-                                                        <li>38h5m</li>
-                                                        <li>38h5m</li>
-                                                    </ul>
-                                                    <div class="line"></div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-choose">
-                                                    <span class="amount">$5,923</span>
-                                                    <a href="#" class="awe-btn">Choose</a>
-                                                    <div class="line"></div>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sale-flights-tabs__item-flight">
-                                                    <div class="image-wrap">
-                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
-                                                    </div>
-                                                    <div class="td-content">
-                                                        <div class="title">
-                                                            <h3>Lufthansa</h3>
-                                                        </div>
-                                                        <ul>
-                                                            <li>
-                                                                <span class="from">HAN <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">SVO</span>
-                                                            </li>
-                                                            <li>
-                                                                <span class="from">SVO <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">JFK</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-depart">
-                                                    <h4>Depart</h4>
-                                                    <ul>
-                                                        <li>10:25</li>
-                                                        <li>10:25</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-arrive">
-                                                    <h4>Arrive</h4>
-                                                    <ul>
-                                                        <li>12:30</li>
-                                                        <li>12:30</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-duration">
-                                                    <h4>Duration</h4>
-                                                    <ul>
-                                                        <li>38h5m</li>
-                                                        <li>38h5m</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-choose">
-                                                    <span class="amount">$5,923</span>
-                                                    <a href="#" class="awe-btn">Choose</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sale-flights-tabs__item-flight">
-                                                    <div class="image-wrap">
-                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
-                                                    </div>
-                                                    <div class="td-content">
-                                                        <div class="title">
-                                                            <h3>Lufthansa</h3>
-                                                        </div>
-                                                        <ul>
-                                                            <li>
-                                                                <span class="from">HAN <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">SVO</span>
-                                                            </li>
-                                                            <li>
-                                                                <span class="from">SVO <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">JFK</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-depart">
-                                                    <h4>Depart</h4>
-                                                    <ul>
-                                                        <li>10:25</li>
-                                                        <li>10:25</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-arrive">
-                                                    <h4>Arrive</h4>
-                                                    <ul>
-                                                        <li>12:30</li>
-                                                        <li>12:30</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-duration">
-                                                    <h4>Duration</h4>
-                                                    <ul>
-                                                        <li>38h5m</li>
-                                                        <li>38h5m</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-choose">
-                                                    <span class="amount">$5,923</span>
-                                                    <a href="#" class="awe-btn">Choose</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sale-flights-tabs__item-flight">
-                                                    <div class="image-wrap">
-                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
-                                                    </div>
-                                                    <div class="td-content">
-                                                        <div class="title">
-                                                            <h3>Lufthansa</h3>
-                                                        </div>
-                                                        <ul>
-                                                            <li>
-                                                                <span class="from">HAN <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">SVO</span>
-                                                            </li>
-                                                            <li>
-                                                                <span class="from">SVO <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">JFK</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-depart">
-                                                    <h4>Depart</h4>
-                                                    <ul>
-                                                        <li>10:25</li>
-                                                        <li>10:25</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-arrive">
-                                                    <h4>Arrive</h4>
-                                                    <ul>
-                                                        <li>12:30</li>
-                                                        <li>12:30</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-duration">
-                                                    <h4>Duration</h4>
-                                                    <ul>
-                                                        <li>38h5m</li>
-                                                        <li>38h5m</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-choose">
-                                                    <span class="amount">$5,923</span>
-                                                    <a href="#" class="awe-btn">Choose</a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td class="sale-flights-tabs__item-flight">
-                                                    <div class="image-wrap">
-                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
-                                                    </div>
-                                                    <div class="td-content">
-                                                        <div class="title">
-                                                            <h3>Lufthansa</h3>
-                                                        </div>
-                                                        <ul>
-                                                            <li>
-                                                                <span class="from">HAN <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">SVO</span>
-                                                            </li>
-                                                            <li>
-                                                                <span class="from">SVO <i class="awe-icon awe-icon-arrow-right"></i></span>
-                                                                <span class="to">JFK</span>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-depart">
-                                                    <h4>Depart</h4>
-                                                    <ul>
-                                                        <li>10:25</li>
-                                                        <li>10:25</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-arrive">
-                                                    <h4>Arrive</h4>
-                                                    <ul>
-                                                        <li>12:30</li>
-                                                        <li>12:30</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-duration">
-                                                    <h4>Duration</h4>
-                                                    <ul>
-                                                        <li>38h5m</li>
-                                                        <li>38h5m</li>
-                                                    </ul>
-                                                </td>
-                                                <td class="sale-flights-tabs__item-choose">
-                                                    <span class="amount">$5,923</span>
-                                                    <a href="#" class="awe-btn">Choose</a>
-                                                </td>
-                                            </tr>
                                             <tr>
                                                 <td class="sale-flights-tabs__item-flight">
                                                     <div class="image-wrap">
@@ -942,6 +403,65 @@
                                         </tbody>
                                     </table>
                                 </div>
+                                <!-- tab3 : 신규 텝  -->
+                                
+                                <div id="sale-flights-tabs-3">
+                                    <table class="sale-flights-tabs__table">
+                                        <tbody>
+                                            <tr>
+                                                <td class="sale-flights-tabs__item-flight">
+                                                    <div class="image-wrap">
+                                                        <img src="/resources/images/thumb/40-40.jpg" alt="">
+                                                    </div>
+                                                    <div class="td-content">
+                                                        <div class="title">
+                                                            <h3>Lufthansa</h3>
+                                                        </div>
+                                                        <ul>
+                                                            <li>
+                                                                <span class="from">HAN <i class="awe-icon awe-icon-arrow-right"></i></span>
+                                                                <span class="to">SVO</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="from">SVO <i class="awe-icon awe-icon-arrow-right"></i></span>
+                                                                <span class="to">JFK</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </td>
+                                                <td class="sale-flights-tabs__item-depart">
+                                                    <h4>Depart</h4>
+                                                    <ul>
+                                                        <li>10:25</li>
+                                                        <li>10:25</li>
+                                                    </ul>
+                                                </td>
+                                                <td class="sale-flights-tabs__item-arrive">
+                                                    <h4>Arrive</h4>
+                                                    <ul>
+                                                        <li>12:30</li>
+                                                        <li>12:30</li>
+                                                    </ul>
+                                                </td>
+                                                <td class="sale-flights-tabs__item-duration">
+                                                    <h4>Duration</h4>
+                                                    <ul>
+                                                        <li>38h5m</li>
+                                                        <li>38h5m</li>
+                                                    </ul>
+                                                </td>
+                                                <td class="sale-flights-tabs__item-choose">
+                                                    <span class="amount">$5,923</span>
+                                                    <a href="#" class="awe-btn">Choose</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                
+                                
+                                
                             </div>
                         </div>
                     </div>
