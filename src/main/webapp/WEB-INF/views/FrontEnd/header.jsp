@@ -72,9 +72,9 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="destinations-list.html">갤러리페이지</a>
+                                <a href="list.jsp">갤러리페이지</a>
                                 <ul class="sub-menu">
-                                    <li><a href="destinations-list.html">List</a></li>
+                                    <li><a href="list.html">List</a></li>
                                     <li><a href="destinations-grid.html">Grid</a></li>                
                                 </ul>
                             </li>
