@@ -7,7 +7,7 @@
             <div id="slider-revolution">
                 <ul>
                     <li data-slotamount="7" data-masterspeed="500" data-title="Slide title 1">
-                        <img src="../resources/images/gallery1.jpg" data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
+                        <img src="../resources/images/gallery1.jpg"  data-bgposition="left center" data-duration="14000" data-bgpositionend="right center" alt="">
 
                         <div class="tp-caption sfb fadeout slider-caption-sub slider-caption-sub-1" data-x="500" data-y="230" data-speed="700" data-start="1500" data-easing="easeOutBack">
                           갤러리를 공유하고
