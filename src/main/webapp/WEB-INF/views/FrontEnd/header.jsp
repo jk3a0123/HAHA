@@ -38,6 +38,26 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
+    <style>
+    /* .owl-wrapper{
+    	position:relative; width:200px; left:0px; right:0; margin-left:50px; margin-right:auto;
+    } */
+    .prices{
+    	position:relative; width:200px; left:120px; right:0; margin-left:auto; margin-right:auto;
+    }
+    #tabs-1 .item{
+    	 width:200px; left:0px; right:0; margin-left:auto; margin-right:auto;
+    }
+    #tabs-2 .item{
+    	 width:200px; left:0px; right:0; margin-left:100px; margin-right:auto;
+    }
+    #tabs-3 .item{
+    	 width:200px; left:0px; right:0; margin-left:250px; margin-right:auto;
+    }
+    #tabs-5 .item{
+    	 width:200px; left:0px; right:0; margin-left:10px; margin-right:auto;
+    }
+    </style>
 </head>
 <body>
 

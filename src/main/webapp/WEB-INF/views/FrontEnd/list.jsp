@@ -10,67 +10,154 @@
 				</div>
 				<div class="travelling-tabs tabs">
 					<ul>
-						<li class = "purpose"><a href="#tabs-1">Purpose</a></li>
-						<!-- <li><a href="#tabs-2">Region</a></li>
-                            <li><a href="#tabs-3">Price</a></li>
-                            <li><a href="#tabs-4">Time</a></li> -->
-						<li class = "filter"><a href="#tabs-5" >Advance Filter</a></li>
+						<li class = "purpose"><a href="#tabs-1">지역</a></li>
+						<li><a href="#tabs-2">카테고리</a></li>
+                        <li><a href="#tabs-3">운영주체성격</a></li>
+                        <li><a href="#tabs-4">가격</a></li>
+                        <li><a href="#tabs-5">평점</a></li>
+                        <li><a href="#tabs-6">후기</a></li>
+						<li class = "filter"><a href="#tabs-7" >Advance Filter</a></li>
 					</ul>
 					<form>
 					<div class="travelling-tabs__content">
 						<div id="tabs-1">
 							<div class="purpose-slider">
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-food"></i> <span>Foodie
-											&amp; Culinary</span>
+									<a href="#"> <i class="awe-icon awe-icon-food"></i> <span>서울</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-bag"></i> <span>Fashion
-											&amp; Shopping</span>
+									<a href="#"> <i class="awe-icon awe-icon-bag"></i> <span>경기도</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-music"></i> <span>Music
-											&amp; Festival</span>
+									<a href="#"> <i class="awe-icon awe-icon-music"></i> <span>전라도</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-culture"></i> <span>History
-											&amp; Culture</span>
+									<a href="#"> <i class="awe-icon awe-icon-culture"></i> <span>충청도</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-nature"></i> <span>Sports
-											&amp; Nature</span>
+									<a href="#"> <i class="awe-icon awe-icon-nature"></i> <span>경상도</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-entertain"></i> <span>Entertain
-											&amp; Gamble</span>
+									<a href="#"> <i class="awe-icon awe-icon-entertain"></i> <span>제주도</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						<div id="tabs-2">
+							<div class="purpose-slider">
+								<div class="item">
+									<a href="#"> <i class="awe-icon awe-icon-food"></i> <span>미술</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-briefcase-plus"></i>
-										<span>Health &amp; Beauty</span>
+									<a href="#"> <i class="awe-icon awe-icon-bag"></i> <span>음악</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-food"></i> <span>Foodie
-											&amp; Culinary</span>
+									<a href="#"> <i class="awe-icon awe-icon-music"></i> <span>음식</span>
 									</a>
 								</div>
 								<div class="item">
-									<a href="#"> <i class="awe-icon awe-icon-bag"></i> <span>Fashion
-											&amp; Shopping</span>
+									<a href="#"> <i class="awe-icon awe-icon-culture"></i> <span>문화</span>
+									</a>
+								</div>
+								<div class="item">
+									<a href="#"> <i class="awe-icon awe-icon-bag"></i> <span>ETC</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						
+						
+							<div id="tabs-3">
+							<div class="purpose-slider">
+								<div class="item">
+									<a href="#"> <i class="awe-icon awe-icon-food"></i> <span>개인</span>
+									</a>
+								</div>
+								<div class="item">
+									<a href="#"> <i class="awe-icon awe-icon-bag"></i> <span>자치단체</span>
 									</a>
 								</div>
 							</div>
 						</div>
 
+						<div id="tabs-4">
+                                <div class="travelling-tabs__price">
+                                    <div class="budget-level prices">
+                                        <label>Budget level</label>
+                                        <div class="price-slider-wrapper">
+                                            <div class="price-slider"></div>
+                                            <div class="price_slider_amount">
+                                                <div class="price_label">
+                                                    <span class="from"></span> - <span class="to"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+							<div id = "tabs-5">
+								<div class="purpose-slider">
+									<div class="item">
+										<a href="#">  <span class="rating">
+												Unrated
+                                            </span>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#">  <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                            </span>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#">  <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#">  <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#">  <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+										</a>
+									</div>
+									<div class="item">
+										<a href="#">  <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+										</a>
+									</div>
+								</div>	
+							</div>
 
 
-						<div id="tabs-5">
+
+						<div id="tabs-7">
 							<div class="travelling-tabs__advance-filter">
 								<div class="form-group">
 									<div class="form-elements from">
@@ -491,9 +578,6 @@
 								</div>
 							</div>
 							<!-- END / GALLERY ITEM -->
-
-
-
 
 						</div>
 					</div>
