@@ -336,6 +336,7 @@
                                 </div> -->
 							<!-- END / GALLERY ITEM -->
 							<!-- GALLERY ITEM -->
+							
 							<div class="awe-masonry__item">
 								<a href="#">
 									<div class="image-wrap image-cover">
