@@ -33,13 +33,13 @@ public class GalleryTest {
 		vo.setGexplanation("test");
 		vo.setGesp("test");
 		vo.setGosp("test1");
-		vo.setGdirector("하하");
-		vo.setGallery_name("상봉 미술관");
+		vo.setGdirector("윤희재");
+		vo.setGallery_name("희재네 미술관");
 		vo.setGhomepage("www.naver.com");
 		vo.setGopenyear(1998);
 		vo.setGarea("seoul");
-		vo.setGlat(1.3333);
-		vo.setGlng(2.3334);
+		vo.setGlat(37.596378);
+		vo.setGlng(127.084813);
 		vo.setPno(1);
 		vo.setUno(2);
 		vo.setGpa(100);
