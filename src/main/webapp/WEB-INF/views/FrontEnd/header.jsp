@@ -53,7 +53,7 @@
                 <div class="container">
                     <!-- LOGO -->
                     <div class="logo">
-                        <a href="../resources/index.html"><img src="../resources/images/logo.png" alt=""></a>
+                        <a href="/FrontEnd/index.html"><img src="../resources/images/logo.png" alt=""></a>
                     </div>
                     <!-- END / LOGO -->
                     
