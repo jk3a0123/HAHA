@@ -62,7 +62,7 @@ html, body {
 						</div>
 						<div class="item">
 							<h6>TripAdvisor ></h6>
-							<img src="../resources/images/trips.png" alt="">
+							<img src="/resources/images/trips.png" alt="">
 						</div>
 						<div class="item">
 							<h6>Reviews</h6>
@@ -128,58 +128,58 @@ html, body {
 								<img src="${ImageVO.iroute}" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/demo02.jpg" alt="">
+								<img src="/resources/images/img/demo02.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/demo03.jpg" alt="">
+								<img src="/resources/images/img/demo03.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/demo04.jpg" alt="">
+								<img src="/resources/images/img/demo04.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/5.jpg" alt="">
+								<img src="/resources/images/img/5.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/6.jpg" alt="">
+								<img src="/resources/images/img/6.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/7.jpg" alt="">
+								<img src="/resources/images/img/7.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/8.jpg" alt="">
+								<img src="/resources/images/img/8.jpg" alt="">
 							</div>
 							<div class="item">
-								<img src="../resources/images/img/9.jpg" alt="">
+								<img src="/resources/images/img/9.jpg" alt="">
 							</div>
 						</div>
 						<div class="product-slider-thumb-row">
 							<div class="product-slider-thumb">
 								<div class="item">
-									<img src="../resources/images/img/demo01.jpg" alt="">
+									<img src="/resources/images/img/demo01.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo02.jpg" alt="">
+									<img src="/resources/images/img/demo02.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo03.jpg" alt="">
+									<img src="/resources/images/img/demo03.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo04.jpg" alt="">
+									<img src="/resources/images/img/demo04.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-5.jpg" alt="">
+									<img src="/resources/images/img/demo-thumb-5.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-6.jpg" alt="">
+									<img src="/resources/images/img/demo-thumb-6.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-7.jpg" alt="">
+									<img src="/resources/images/img/demo-thumb-7.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-8.jpg" alt="">
+									<img src="/resources/images/img/demo-thumb-8.jpg" alt="">
 								</div>
 								<div class="item">
-									<img src="../resources/images/img/demo-thumb-9.jpg" alt="">
+									<img src="/resources/images/img/demo-thumb-9.jpg" alt="">
 								</div>
 							</div>
 						</div>
@@ -267,7 +267,7 @@ html, body {
                                             <tr>
                                                 <td class="room-type">
                                                     <div class="room-thumb">
-                                                        <img src="../resources/images/thumb/1.jpg" alt="">
+                                                        <img src="/resources/images/thumb/1.jpg" alt="">
                                                     </div>
                                                     <div class="room-title">
                                                         <h4>Standard Double Room</h4>
@@ -303,7 +303,7 @@ html, body {
                                             <tr>
                                                 <td class="room-type">
                                                     <div class="room-thumb">
-                                                        <img src="../resources/images/thumb/2.jpg" alt="">
+                                                        <img src="/resources/images/thumb/2.jpg" alt="">
                                                     </div>
                                                     <div class="room-title">
                                                         <h4>Standard Double Room</h4>
@@ -339,7 +339,7 @@ html, body {
                                             <tr>
                                                 <td class="room-type">
                                                     <div class="room-thumb">
-                                                        <img src="../resources/images/thumb/3.jpg" alt="">
+                                                        <img src="/resources/images/thumb/3.jpg" alt="">
                                                     </div>
                                                     <div class="room-title">
                                                         <h4>Victoria Suite</h4>
@@ -375,7 +375,7 @@ html, body {
                                             <tr>
                                                 <td class="room-type">
                                                     <div class="room-thumb">
-                                                        <img src="../resources/images/thumb/4.jpg" alt="">
+                                                        <img src="/resources/images/thumb/4.jpg" alt="">
                                                     </div>
                                                     <div class="room-title">
                                                         <h4>Standard Double Room</h4>
@@ -410,7 +410,7 @@ html, body {
                                             <tr>
                                                 <td class="room-type">
                                                     <div class="room-thumb">
-                                                        <img src="../resources/images/thumb/4.jpg" alt="">
+                                                        <img src="/resources/images/thumb/4.jpg" alt="">
                                                     </div>
                                                     <div class="room-title">
                                                         <h4>Standard Double Room</h4>
@@ -596,7 +596,7 @@ html, body {
 										</th>
 										<td>
 											<p>
-												<img src="../resources/images/paypal2.png" alt="">
+												<img src="/resources/images/paypal2.png" alt="">
 											</p>
 										</td>
 									</tr>
@@ -708,7 +708,7 @@ html, body {
 										<li>
 											<div class="comment-box">
 												<div class="avatar">
-													<img src="../resources/images/img/demo-thumb.jpg" alt="">
+													<img src="/resources/images/img/demo-thumb.jpg" alt="">
 												</div>
 												<div class="comment-body">
 													<p class="meta">
@@ -717,7 +717,7 @@ html, body {
 													</p>
 													<div class="description">
 														<p>Takes me back to my youth. I love the design of
-															this soda machine. A bit pricy though..!</p>
+															this soda machine. A bit pricy though!</p>
 													</div>
 
 													<div class="rating-info">
@@ -737,7 +737,7 @@ html, body {
 										<li>
 											<div class="comment-box">
 												<div class="avatar">
-													<img src="../resources/images/img/demo-thumb.jpg" alt="">
+													<img src="/resources/images/img/demo-thumb.jpg" alt="">
 												</div>
 												<div class="comment-body">
 													<p class="meta">
@@ -746,7 +746,7 @@ html, body {
 													</p>
 													<div class="description">
 														<p>Takes me back to my youth. I love the design of
-															this soda machine. A bit pricy though..!</p>
+															this soda machine. A bit pricy though!</p>
 													</div>
 
 													<div class="rating-info">
@@ -766,7 +766,7 @@ html, body {
 										<li>
 											<div class="comment-box">
 												<div class="avatar">
-													<img src="../resources/images/img/demo-thumb.jpg" alt="">
+													<img src="/resources/images/img/demo-thumb.jpg" alt="">
 												</div>
 												<div class="comment-body">
 													<p class="meta">
@@ -775,7 +775,7 @@ html, body {
 													</p>
 													<div class="description">
 														<p>Takes me back to my youth. I love the design of
-															this soda machine. A bit pricy though..!</p>
+															this soda machine. A bit pricy though!</p>
 													</div>
 
 													<div class="rating-info">

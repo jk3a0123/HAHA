@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("Gallery")
+@RequestMapping("FrontEnd/Gallery")
 public class GalleryController {
 
 	
@@ -31,7 +31,7 @@ public class GalleryController {
 	private static final Logger logger = LoggerFactory.getLogger(GalleryController.class);
 	
 	@GetMapping("view")
-	public String mainPage(Model model , Integer gno )throws Exception {
+	public void mainPage(Model model , Integer gno )throws Exception {
 		
 		logger.info("main called...");
 		
@@ -41,15 +41,18 @@ public class GalleryController {
 		
 	
 		
-		return "FrontEnd/Gallery/view";
+		//return "FrontEnd/Gallery/view";
 //		model.addAttribute("list", galleryService.view(gno));
 		
 	}
 	
 	@GetMapping("register")
-	public void registerPage(Model model , GalleryVO vo) throws Exception {
+	public String registerPage(Model model , GalleryVO vo) throws Exception {
 		
 		logger.info("register called...");
+		
+		
+		return "FrontEnd/Gallery/register";
 	}
 	
 	@PostMapping("register")

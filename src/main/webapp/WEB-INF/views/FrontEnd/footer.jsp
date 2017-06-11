@@ -101,18 +101,18 @@
 
 
     <!-- LOAD JQUERY -->
-    <script type="text/javascript" src="../resources/js/lib/jquery-1.11.2.min.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/jquery.owl.carousel.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/theia-sticky-sidebar.js"></script>
-    <script type="text/javascript" src="../resources/js/lib/jquery.magnific-popup.min.js"></script>
-    <script type='text/javascript' src="../resources/js/lib/jquery-ui.js"></script>
-    <script type="text/javascript" src="../resources/js/scripts.js"></script>
+    <script type="text/javascript" src="/resources/js/lib/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="/resources/js/lib/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="/resources/js/lib/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="/resources/js/lib/jquery.owl.carousel.js"></script>
+    <script type="text/javascript" src="/resources/js/lib/theia-sticky-sidebar.js"></script>
+    <script type="text/javascript" src="/resources/js/lib/jquery.magnific-popup.min.js"></script>
+    <script type='text/javascript' src="/resources/js/lib/jquery-ui.js"></script>
+    <script type="text/javascript" src="/resources/js/scripts.js"></script>
 
     <!-- REVOLUTION DEMO -->
-    <script type="text/javascript" src="../resources/revslider-demo/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="../resources/revslider-demo/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="/resources/revslider-demo/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="/resources/revslider-demo/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript">
         if($('#slider-revolution').length) {
             $('#slider-revolution').show().revolution({
