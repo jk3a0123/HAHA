@@ -12,9 +12,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300' rel='stylesheet' type='text/css'>
+  <!--   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
 
     <!-- CSS LIBRARY -->
     <link rel="stylesheet" type="text/css" href="../resources/css/lib/bootstrap.min.css">
@@ -101,10 +101,8 @@
                             <li class="menu-item-has-children">
                                 <a href="trip.html">구인페이지</a>
                                 <ul class="sub-menu">
-                                    <li><a href="trip.html">Trips</a></li>
+                                    <li><a href="../FrontEnd/recruit.html">구인Page</a></li>
                                     <li><a href="trip-detail.html">Trips Detail</a></li>
-                                    <li><a href="trip-dark.html">Trips (Dark)</a></li>
-                                    <li><a href="trip-detail-dark.html">Trips Detail (Dark)</a></li>
                                 </ul>
                             </li>
                             
