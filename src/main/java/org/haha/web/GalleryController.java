@@ -39,20 +39,14 @@ public class GalleryController {
 		
 		model.addAttribute("GalleryVO", galleryService.view(gno));
 		
-	
-		
-		//return "FrontEnd/Gallery/view";
-//		model.addAttribute("list", galleryService.view(gno));
 		
 	}
 	
 	@GetMapping("register")
-	public String registerPage(Model model , GalleryVO vo) throws Exception {
+	public void registerPage(Model model , GalleryVO vo) throws Exception {
 		
 		logger.info("register called...");
-		
-		
-		return "FrontEnd/Gallery/register";
+	
 	}
 	
 	@PostMapping("register")

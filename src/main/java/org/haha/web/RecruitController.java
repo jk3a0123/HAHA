@@ -27,7 +27,7 @@ public class RecruitController {
 		logger.info("main called...");
 
 		logger.info("rcno : " + rcno);
-
+ 
 	}
 
 	@GetMapping("register")
