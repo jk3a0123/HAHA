@@ -72,10 +72,10 @@ public class GalleryController {
 	}
 	
 	@GetMapping("myPage")
-	public String myPage(Model model,Integer rno) throws Exception{
-		rno= 1;
+	public String myPage(Model model,Integer gno) throws Exception{
+		gno= 1;
 		logger.info("들어왔다.");
-		model.addAttribute("reservationVO", reservationService.view(rno));
+		model.addAttribute("reservationVO", reservationService.getList(gno));
 		return "FrontEnd/Business/myPage";
 	}
 	
@@ -86,4 +86,11 @@ public class GalleryController {
 		return "FrontEnd/Business/myGallery";
 	}
 	
+	@GetMapping("myModify")
+	public String myModify(Model model, Integer gno) throws Exception{
+		gno= 1;
+		logger.info("들어왔다.ㅅ정");
+		model.addAttribute("reservationVO", reservationService.getList(gno));
+		return "FrontEnd/Business/myModify";
+	}
 }

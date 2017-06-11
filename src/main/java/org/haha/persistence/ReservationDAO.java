@@ -1,5 +1,7 @@
 package org.haha.persistence;
 
+import java.util.List;
+
 import org.haha.domain.ReservationVO;
 
 public interface ReservationDAO {
@@ -12,6 +14,6 @@ public interface ReservationDAO {
 	
 	public void delete(Integer rno) throws Exception;
 	
-	
+	public List<ReservationVO> list(Integer gno) throws Exception;
 
 }

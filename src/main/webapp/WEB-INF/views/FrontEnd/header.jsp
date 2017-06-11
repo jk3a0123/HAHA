@@ -106,11 +106,11 @@
                                 <a href="#">MyPage</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
-                                        <a href="/Gallery/myPage.html">MyPage</a>
+                                        <a href="/FrontEnd/Gallery/myPage.html">MyPage</a>
                                         <ul class="sub-menu">
-                                            <li><a href="/Gallery/myPage.html">예약 현황</a></li>
+                                            <li><a href="/FrontEnd/Gallery/myPage.html">예약 현황</a></li>
                                             <!-- <li><a href="/Gallery/myGallery.html"></a>갤러리 현황</li> -->
-                                            <li><a href="/Gallery/myGallery.html">갤러리현황</a></li>
+                                            <li><a href="/FrontEnd/Gallery/myGallery.html">갤러리현황</a></li>
                                             <!-- <li><a href="single-post-dark.html">Single Post (Dark)</a></li> -->
                                         </ul>
                                     </li>

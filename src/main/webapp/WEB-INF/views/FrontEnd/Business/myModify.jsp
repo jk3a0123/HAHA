@@ -17,13 +17,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="checkout-page__sidebar">
-                            <ul>
-                                <li class="current"><a href="myPage">예약 현황</a></li>
-                                <li><a href="myGallery">갤러리 현황</a></li>
-                             <!--    <li><a href="checkout-complete.html">Complete order</a></li> -->
-                            </ul>
-                        </div>
+               
                     </div>
                     <div class="col-lg-9">
                         <div class="checkout-page__content">
@@ -33,7 +27,7 @@
                                 </div>
                                 
                                 <div class="cart-content">
-                              
+                               <c:forEach items="${reservationVO}" var="reservationVO" varStatus="i">
                                     <table class="cart-table">
                                         <thead>
                                             <tr>
@@ -70,20 +64,18 @@
                                                     <span class="amount">$ 253</span>
                                                 </td>
                                             </tr>
-                                           
-                                           
-                                           
                                         </tbody>
+                                       
                                     </table>
-                         
+                          </c:forEach>
 
                                     <div class="cart-footer">
                                       
                                         
                                         <div class="cart-submit">
                                         <div></div>
-                                            <input id="updateBtn" type="submit" value="수정 하기" class="update-cart">
-                                            <input id="deleteBtn" type="submit" value="예약 취소" class="checkout">
+                                            <input id="updateBtn" type="submit" value="수정 완료" class="update-cart">
+                                            <input id="deleteBtn" type="submit" value="수정 취소" class="checkout">
                                         </div>
                                     </div>
                                 </div>

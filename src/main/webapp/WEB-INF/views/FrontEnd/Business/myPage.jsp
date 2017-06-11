@@ -33,27 +33,27 @@
                                 </div>
                                 
                                 <div class="cart-content">
-                              
+                              <c:forEach items="${reservationVO}" var="reservationVO" varStatus="i">
                                     <table class="cart-table">
                                         <thead>
                                             <tr>
                                                 <th class="product-remove"></th>
-                                                <th class="product-name">${reservationVO.gno }  (대관실 이름)</th>
+                                                <th class="product-name">${reservationVO.gno}  (대관실 이름)</th>
                                                 <th class="product-price"></th>
                                                 <th class="product-quantity"></th>
-                                                <th class="product-subtotal">₩ ${reservationVO.rprice }</th>
+                                                <th class="product-subtotal">₩ ${reservationVO.rprice}</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td class="product-remove">
+                                                <!-- <td class="product-remove">
                                                     <a href="#"><i class="awe-icon awe-icon-close-o"></i></a>
-                                                </td>
+                                                </td> -->
                                                 <td class="product-name">
                                                     <span>${reservationVO.uno } (사용자 이름)</span>
                                                 </td>
                                                 <td class="product-price">
-                                                    <span class="amount">${reservationVO.ropendate } ~ ${reservationVO.rclosedate }</span>
+                                                    <span class="amount">${reservationVO.ropendate} ~ ${reservationVO.rclosedate}</span>
                                                 </td>
                                                 <td class="product-quantity">
                                                     <div class="quantity buttons_added">
@@ -75,15 +75,17 @@
                                            
                                         </tbody>
                                     </table>
-                         
+                         </c:forEach>
 
                                     <div class="cart-footer">
                                       
                                         
                                         <div class="cart-submit">
-                                        <div></div>
+                                       <br>
+                                        <form id ="form1">
                                             <input id="updateBtn" type="submit" value="수정 하기" class="update-cart">
                                             <input id="deleteBtn" type="submit" value="예약 취소" class="checkout">
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
@@ -104,7 +106,7 @@
 					function() {
 				$("#updateBtn").on("click",function(){
 					console.log("되냐");
-					$("#updateBtn").attr("action","myModify").submit();
+					$("#form1").attr("action","myModify").submit();
 				});					
 			});
 		</script>

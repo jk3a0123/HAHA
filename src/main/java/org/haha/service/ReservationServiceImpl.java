@@ -1,5 +1,7 @@
 package org.haha.service;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.haha.domain.ReservationVO;
@@ -49,6 +51,18 @@ public class ReservationServiceImpl implements ReservationService {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
+	}
+
+	@Override
+	public List<ReservationVO> getList(Integer gno) {
+		
+		List<ReservationVO> list = null;
+		try {
+			list = dao.list(gno);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return list;
 	}
 
 }
