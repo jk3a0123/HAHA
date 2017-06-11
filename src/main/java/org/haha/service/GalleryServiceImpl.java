@@ -52,4 +52,15 @@ public class GalleryServiceImpl implements GalleryService {
 		}
 	}
 
+	@Override
+	public GalleryVO getMyGallery(Integer uno) {
+		GalleryVO vo = new GalleryVO();
+		try{
+			vo = dao.read(uno);
+		}catch(Throwable e){
+			e.printStackTrace();
+		}
+		return vo;
+	}
+
 }

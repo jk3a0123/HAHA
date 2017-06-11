@@ -11,5 +11,7 @@ public interface GalleryDAO {
 	public void update(GalleryVO vo) throws Exception;
 	
 	public void delete(Integer gno) throws Exception;
+	
+	public GalleryVO myGallery(Integer uno) throws Exception;
 
 }

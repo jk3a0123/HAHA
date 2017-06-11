@@ -5,6 +5,7 @@ import javax.inject.Inject;
 import org.haha.domain.GalleryVO;
 import org.haha.service.GalleryService;
 import org.haha.service.ImageService;
+import org.haha.service.ReservationService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("Gallery")
+@RequestMapping("FrontEnd/Gallery")
 public class GalleryController {
 
 	
@@ -22,12 +23,15 @@ public class GalleryController {
 	private GalleryService galleryService;
 	
 	@Inject
+	private ReservationService reservationService;
+	
+	@Inject
 	private ImageService imageService;
 	
 	private static final Logger logger = LoggerFactory.getLogger(GalleryController.class);
 	
 	@GetMapping("view")
-	public String mainPage(Model model , Integer gno )throws Exception {
+	public void mainPage(Model model , Integer gno )throws Exception {
 		
 		logger.info("main called...");
 		
@@ -35,10 +39,6 @@ public class GalleryController {
 		
 		model.addAttribute("GalleryVO", galleryService.view(gno));
 		
-	
-		
-		return "FrontEnd/Gallery/view";
-//		model.addAttribute("list", galleryService.view(gno));
 		
 	}
 	
@@ -46,6 +46,7 @@ public class GalleryController {
 	public void registerPage(Model model , GalleryVO vo) throws Exception {
 		
 		logger.info("register called...");
+	
 	}
 	
 	@PostMapping("register")
@@ -65,14 +66,17 @@ public class GalleryController {
 	}
 	
 	@GetMapping("myPage")
-	public String myPage(Model model) throws Exception{
+	public String myPage(Model model,Integer rno) throws Exception{
+		rno= 1;
 		logger.info("들어왔다.");
+		model.addAttribute("reservationVO", reservationService.view(rno));
 		return "FrontEnd/Business/myPage";
 	}
 	
 	@GetMapping("myGallery")
-	public String myGallery(Model model) throws Exception{
+	public String myGallery(Model model, Integer uno) throws Exception{
 		logger.info("들어왔다.");
+		model.addAttribute("GalleryVO", galleryService.view(uno));
 		return "FrontEnd/Business/myGallery";
 	}
 	

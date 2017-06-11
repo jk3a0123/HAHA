@@ -11,5 +11,6 @@ public interface GalleryService {
 	public void modify(GalleryVO vo);
 	
 	public void remove(Integer gno);
-
+	
+	public GalleryVO getMyGallery(Integer uno);
 }

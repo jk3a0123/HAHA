@@ -9,6 +9,7 @@
       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
 
+<<<<<<< HEAD
       <!-- database Connection -->
       <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
          <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
@@ -38,6 +39,37 @@
       <property name="dataSource" ref="dataSource"></property>
    </bean>
    <tx:annotation-driven />
+=======
+		<!-- database Connection -->
+		<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+			<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+			<!--  &amp;  추가 유의하자 -->
+			<property name="url" value="jdbc:mysql://123.109.80.254:3306/TEAM_HAHA?useSSL=false&amp;serverTimezone=Asia/Seoul"></property>
+			<property name="username" value="blackin"></property>
+			<property name="password" value="blackin"></property>
+		</bean>
+		
+		
+		
+		<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		   <property name="dataSource" ref="dataSource" />
+		   <property name="configLocation" value="classpath:/mybatis-config.xml"></property>
+		   <!-- ** 두개는 그 안에 뭐가있는 상관없다    *Mapper.xml 은 mapper로 끝내면 된다. -->
+		   <property name="mapperLocations" value="classpath:mappers/**/*Mapper.xml"></property>
+		</bean>
+		
+		<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+			<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory">
+			</constructor-arg>
+		
+		</bean>
+		
+	<bean id="transactionManager"
+		class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<tx:annotation-driven />
+>>>>>>> branch 'master' of https://github.com/jk3a0123/HAHA
  <context:component-scan base-package="org.haha.persistence" ></context:component-scan>
  <context:component-scan base-package="org.haha.service" ></context:component-scan>
       

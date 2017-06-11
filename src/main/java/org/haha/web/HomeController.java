@@ -23,9 +23,16 @@ public class HomeController {
 	}
 	
 	@GetMapping("list")
-public void listPage() throws Exception{
+	public void listPage() throws Exception{
 		
 		logger.info("list page .............");
+		
+	}
+	
+	@GetMapping("recruit")
+	public void recruitPage() throws Exception{
+		
+		logger.info("recruit page .......");
 		
 	}
 }
