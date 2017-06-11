@@ -4,6 +4,7 @@ import javax.inject.Inject;
 
 import org.haha.domain.GalleryVO;
 import org.haha.service.GalleryService;
+import org.haha.service.ReservationService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -19,6 +20,9 @@ public class GalleryController {
 	
 	@Inject
 	private GalleryService galleryService;
+	
+	@Inject
+	private ReservationService reservationService;
 	
 	private static final Logger logger = LoggerFactory.getLogger(GalleryController.class);
 	
@@ -59,14 +63,16 @@ public class GalleryController {
 	}
 	
 	@GetMapping("myPage")
-	public String myPage(Model model) throws Exception{
+	public String myPage(Model model,Integer rno) throws Exception{
 		logger.info("들어왔다.");
+		model.addAttribute("reservationVO", reservationService.view(rno));
 		return "FrontEnd/Business/myPage";
 	}
 	
 	@GetMapping("myGallery")
-	public String myGallery(Model model) throws Exception{
+	public String myGallery(Model model, Integer uno) throws Exception{
 		logger.info("들어왔다.");
+		model.addAttribute("GalleryVO", galleryService.view(uno));
 		return "FrontEnd/Business/myGallery";
 	}
 	

@@ -74,7 +74,7 @@
                             <li class="menu-item-has-children">
                                 <a href="list.jsp">갤러리페이지</a>
                                 <ul class="sub-menu">
-                                    <li><a href="list">List</a></li>
+                                    <li><a href="../FrontEnd/list.html">List</a></li>
                                     <li><a href="destinations-grid.html">Grid</a></li>                
                                 </ul>
                             </li>
@@ -89,24 +89,24 @@
                             </li>
                             
                             <li class="menu-item-has-children">
-                                <a href="#">Pages</a>
+                                <a href="#">MyPage</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">Blog</a>
+                                        <a href="/Gallery/myPage.html">MyPage</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="blog-dark.html">Blog (Dark)</a></li>
-                                            <li><a href="single-post-dark.html">Single Post (Dark)</a></li>
+                                            <li><a href="/Gallery/myPage.html">예약 현황</a></li>
+                                            <!-- <li><a href="/Gallery/myGallery.html"></a>갤러리 현황</li> -->
+                                            <li><a href="/Gallery/myGallery.html">갤러리현황</a></li>
+                                            <!-- <li><a href="single-post-dark.html">Single Post (Dark)</a></li> -->
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="login.html">Log In</a>
                                         <ul class="sub-menu">
-                                            <li><a href="login.html">Log In</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                            <li><a href="login.html">Log In (Dark)</a></li>
-                                            <li><a href="register.html">Register (Dark)</a></li>
+                                            <li><a href="login.html">로그인</a></li>
+                                            <li><a href="register.html">가입하기</a></li>
+                                           <!--  <li><a href="login.html">Log In (Dark)</a></li>
+                                            <li><a href="register.html">Register (Dark)</a></li> -->
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
