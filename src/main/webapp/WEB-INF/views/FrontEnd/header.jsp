@@ -81,7 +81,7 @@
                     <nav class="navigation awe-navigation" data-responsive="1200">
                         <ul class="menu-list">
                             <li class="menu-item-has-children current-menu-parent">
-                                <a href="index.html">Home</a>
+                                <a href="/FrontEnd/index.html">Home</a>
                                 <ul class="sub-menu">
                                     <li class="current-menu-item"><a href="index.html">Home 1</a></li>
                                     <li><a href="index2.html">Home 2</a></li>
@@ -92,7 +92,7 @@
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="list.jsp">갤러리페이지</a>
+                                <a href="../FrontEnd/list.html">갤러리페이지</a>
                                 <ul class="sub-menu">
                                     <li><a href="../FrontEnd/list.html">List</a></li>
                                     <li><a href="destinations-grid.html">Grid</a></li>                

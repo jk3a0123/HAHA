@@ -70,6 +70,7 @@ public class GalleryController {
 	
 	@GetMapping("myPage")
 	public String myPage(Model model,Integer rno) throws Exception{
+		rno= 1;
 		logger.info("들어왔다.");
 		model.addAttribute("reservationVO", reservationService.view(rno));
 		return "FrontEnd/Business/myPage";
