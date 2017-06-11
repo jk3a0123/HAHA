@@ -37,4 +37,10 @@ public class GalleryDAOImpl implements GalleryDAO {
 
 	}
 
+	@Override
+	public GalleryVO myGallery(Integer uno) throws Exception {
+		
+		return sqlSession.selectOne(MAPPER + "myGallery",uno);
+	}
+
 }

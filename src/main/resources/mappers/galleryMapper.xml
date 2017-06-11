@@ -50,5 +50,10 @@ DELETE FROM tbl_gallery
       WHERE gno = #{gno}
 </delete>
 
+<select id="myGallery" resultType="GalleryVO">
+SELECT *
+  FROM tbl_gallery
+ WHERE uno = #{uno}
+</select>
 
 </mapper>

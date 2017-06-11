@@ -11,11 +11,6 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <!-- GOOGLE FONT -->
-   <!--  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
- -->
     <!-- CSS LIBRARY -->
     <link rel="stylesheet" type="text/css" href="/resources/css/lib/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/resources/css/lib/font-awesome.min.css">
@@ -86,39 +81,37 @@
                             <li class="menu-item-has-children">
                                 <a href="/FrontEnd/list">갤러리페이지</a>
                                 <ul class="sub-menu">
-                                    <li><a href="list">List</a></li>
+                                    <li><a href="../FrontEnd/list.html">List</a></li>
                                     <li><a href="destinations-grid.html">Grid</a></li>                
                                 </ul>
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="trip.html">구인페이지</a>
                                 <ul class="sub-menu">
-                                    <li><a href="trip.html">Trips</a></li>
+                                    <li><a href="../FrontEnd/recruit.html">구인Page</a></li>
                                     <li><a href="trip-detail.html">Trips Detail</a></li>
-                                    <li><a href="trip-dark.html">Trips (Dark)</a></li>
-                                    <li><a href="trip-detail-dark.html">Trips Detail (Dark)</a></li>
                                 </ul>
                             </li>
                             
                             <li class="menu-item-has-children">
-                                <a href="#">Pages</a>
+                                <a href="#">MyPage</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
-                                        <a href="blog.html">Blog</a>
+                                        <a href="/Gallery/myPage.html">MyPage</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="single-post.html">Single Post</a></li>
-                                            <li><a href="blog-dark.html">Blog (Dark)</a></li>
-                                            <li><a href="single-post-dark.html">Single Post (Dark)</a></li>
+                                            <li><a href="/Gallery/myPage.html">예약 현황</a></li>
+                                            <!-- <li><a href="/Gallery/myGallery.html"></a>갤러리 현황</li> -->
+                                            <li><a href="/Gallery/myGallery.html">갤러리현황</a></li>
+                                            <!-- <li><a href="single-post-dark.html">Single Post (Dark)</a></li> -->
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="login.html">Log In</a>
                                         <ul class="sub-menu">
-                                            <li><a href="login.html">Log In</a></li>
-                                            <li><a href="register.html">Register</a></li>
-                                            <li><a href="login.html">Log In (Dark)</a></li>
-                                            <li><a href="register.html">Register (Dark)</a></li>
+                                            <li><a href="login.html">로그인</a></li>
+                                            <li><a href="register.html">가입하기</a></li>
+                                           <!--  <li><a href="login.html">Log In (Dark)</a></li>
+                                            <li><a href="register.html">Register (Dark)</a></li> -->
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
