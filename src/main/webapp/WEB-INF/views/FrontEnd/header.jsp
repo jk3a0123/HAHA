@@ -12,27 +12,27 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <!-- GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300' rel='stylesheet' type='text/css'>
+   <!--  <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-
+ -->
     <!-- CSS LIBRARY -->
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/awe-booking-font.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/lib/jquery-ui.css"> 
+    <link rel="stylesheet" type="text/css" href="/resources/css/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/lib/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/lib/awe-booking-font.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/lib/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/lib/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/lib/jquery-ui.css"> 
     <!-- REVOLUTION DEMO -->
-    <link rel="stylesheet" type="text/css" href="../resources/revslider-demo/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="/resources/revslider-demo/css/settings.css">
 
 
     <!-- MAIN STYLE -->
-    <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../resources/css/demo.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/demo.css">
     
     <!-- CSS COLOR -->
-    <link id="colorreplace" rel="stylesheet" type="text/css" href="../resources/css/colors/blue.css">
+    <link id="colorreplace" rel="stylesheet" type="text/css" href="/resources/css/colors/blue.css">
     
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -73,7 +73,7 @@
                 <div class="container">
                     <!-- LOGO -->
                     <div class="logo">
-                        <a href="/FrontEnd/index.html"><img src="../resources/images/logo.png" alt=""></a>
+                        <a href="/FrontEnd/index.html"><img src="/resources/images/logo.png" alt=""></a>
                     </div>
                     <!-- END / LOGO -->
                     
@@ -81,18 +81,10 @@
                     <nav class="navigation awe-navigation" data-responsive="1200">
                         <ul class="menu-list">
                             <li class="menu-item-has-children current-menu-parent">
-                                <a href="index.html">Home</a>
-                                <ul class="sub-menu">
-                                    <li class="current-menu-item"><a href="index.html">Home 1</a></li>
-                                    <li><a href="index2.html">Home 2</a></li>
-                                    <li><a href="index3.html">Menu hamburger</a></li>
-                                    <li><a href="index-dark.html">Home 1 (Dark)</a></li>
-                                    <li><a href="index2-dark.html">Home 2 (Dark)</a></li>
-                                    <li><a href="index3-dark.html">Menu hamburger (Dark)</a></li>
-                                </ul>
+                                <a href="/FrontEnd/index">Home</a>
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="list.jsp">갤러리페이지</a>
+                                <a href="/FrontEnd/list">갤러리페이지</a>
                                 <ul class="sub-menu">
                                     <li><a href="list">List</a></li>
                                     <li><a href="destinations-grid.html">Grid</a></li>                
