@@ -35,4 +35,9 @@ public class HomeController {
 		logger.info("recruit page .......");
 		
 	}
+	
+	@GetMapping("click")
+	public void recruitClick(String ck) throws Exception{
+		System.out.println(ck);
+	}
 }
