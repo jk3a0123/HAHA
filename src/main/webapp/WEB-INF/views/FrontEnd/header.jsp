@@ -76,7 +76,16 @@
                     <nav class="navigation awe-navigation" data-responsive="1200">
                         <ul class="menu-list">
                             <li class="menu-item-has-children current-menu-parent">
-                                <a href="/FrontEnd/index">Home</a>
+                                <a href="/FrontEnd/index.html">Home</a>
+                                <ul class="sub-menu">
+                                    <li class="current-menu-item"><a href="index.html">Home 1</a></li>
+                                    <li><a href="index2.html">Home 2</a></li>
+                                    <li><a href="index3.html">Menu hamburger</a></li>
+                                    <li><a href="index-dark.html">Home 1 (Dark)</a></li>
+                                    <li><a href="index2-dark.html">Home 2 (Dark)</a></li>
+                                    <li><a href="index3-dark.html">Menu hamburger (Dark)</a></li>
+                                </ul>
+
                             </li>
                             <li class="menu-item-has-children">
                                 <a href="/FrontEnd/list">갤러리페이지</a>
@@ -97,11 +106,11 @@
                                 <a href="#">MyPage</a>
                                 <ul class="sub-menu">
                                     <li class="menu-item-has-children">
-                                        <a href="/Gallery/myPage.html">MyPage</a>
+                                        <a href="/FrontEnd/Gallery/myPage.html">MyPage</a>
                                         <ul class="sub-menu">
-                                            <li><a href="/Gallery/myPage.html">예약 현황</a></li>
+                                            <li><a href="/FrontEnd/Gallery/myPage.html">예약 현황</a></li>
                                             <!-- <li><a href="/Gallery/myGallery.html"></a>갤러리 현황</li> -->
-                                            <li><a href="/Gallery/myGallery.html">갤러리현황</a></li>
+                                            <li><a href="/FrontEnd/Gallery/myGallery.html">갤러리현황</a></li>
                                             <!-- <li><a href="single-post-dark.html">Single Post (Dark)</a></li> -->
                                         </ul>
                                     </li>

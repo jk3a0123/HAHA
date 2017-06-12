@@ -39,20 +39,14 @@ public class GalleryController {
 		
 		model.addAttribute("GalleryVO", galleryService.view(gno));
 		
-	
-		
-		//return "FrontEnd/Gallery/view";
-//		model.addAttribute("list", galleryService.view(gno));
 		
 	}
 	
 	@GetMapping("register")
-	public String registerPage(Model model , GalleryVO vo) throws Exception {
+	public void registerPage(Model model , GalleryVO vo) throws Exception {
 		
 		logger.info("register called...");
-		
-		
-		return "FrontEnd/Gallery/register";
+	
 	}
 	
 	@PostMapping("register")
@@ -72,9 +66,10 @@ public class GalleryController {
 	}
 	
 	@GetMapping("myPage")
-	public String myPage(Model model,Integer rno) throws Exception{
+	public String myPage(Model model,Integer gno) throws Exception{
+		gno= 1;
 		logger.info("들어왔다.");
-		model.addAttribute("reservationVO", reservationService.view(rno));
+		model.addAttribute("reservationVO", reservationService.getList(gno));
 		return "FrontEnd/Business/myPage";
 	}
 	
@@ -85,4 +80,11 @@ public class GalleryController {
 		return "FrontEnd/Business/myGallery";
 	}
 	
+	@GetMapping("myModify")
+	public String myModify(Model model, Integer gno) throws Exception{
+		gno= 1;
+		logger.info("들어왔다.ㅅ정");
+		model.addAttribute("reservationVO", reservationService.getList(gno));
+		return "FrontEnd/Business/myModify";
+	}
 }

@@ -27,8 +27,8 @@ public class ReservationTest {
 		ReservationVO vo = new ReservationVO();
 		Date date = new Date();
 
-		vo.setUno(167);
-		vo.setGno(1);
+		vo.setUno(1);
+		vo.setGno(407);
 		vo.setRetc("null");
 		vo.setRopendate(date);
 		vo.setRclosedate(date);
@@ -49,7 +49,7 @@ public class ReservationTest {
 		ReservationVO vo = new ReservationVO();
 		Date date = new Date();
 		vo.setRno(1);
-		vo.setGno(55);
+		vo.setGno(1);
 		vo.setRetc("null111");
 		vo.setRopendate(date);
 		vo.setRclosedate(date);
@@ -114,5 +114,9 @@ public class ReservationTest {
 	public void RemoveTest() throws Exception{
 		service.remove(5);
 	}
-
+	
+	@Test
+	public void ListTest() throws Exception{
+		System.out.println(service.getList(1));
+	}
 }

@@ -33,5 +33,9 @@ DELETE FROM tbl_reservation
       WHERE rno = #{rno}
 </delete>
 
+<select id="list" resultType="ReservationVO">
+SELECT *FROM tbl_reservation
+WHERE gno = #{gno} 
+</select>
 
 </mapper>

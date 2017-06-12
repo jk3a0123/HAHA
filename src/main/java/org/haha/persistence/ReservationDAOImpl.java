@@ -1,5 +1,7 @@
 package org.haha.persistence;
 
+import java.util.List;
+
 import javax.inject.Inject;
 
 import org.apache.ibatis.session.SqlSession;
@@ -36,6 +38,12 @@ public class ReservationDAOImpl implements ReservationDAO {
 	public void delete(Integer rno) throws Exception {
 		sqlSession.delete(MAPPER + "delete", rno);
 
+	}
+
+	@Override
+	public List<ReservationVO> list(Integer gno) throws Exception {
+		return sqlSession.selectList(MAPPER+"list",gno);
+		
 	}
 
 }

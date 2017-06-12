@@ -1,5 +1,7 @@
 package org.haha.service;
 
+import java.util.List;
+
 import org.haha.domain.ReservationVO;
 
 public interface ReservationService {
@@ -12,4 +14,5 @@ public interface ReservationService {
 	
 	public void remove(Integer rno);
 	
+	public List<ReservationVO> getList(Integer gno);
 }
