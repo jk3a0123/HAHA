@@ -41,7 +41,7 @@
     	position:relative; width:200px; left:120px; right:0; margin-left:auto; margin-right:auto;
     }
     #tabs-1 .item{
-    	 width:200px; left:0px; right:0; margin-left:auto; margin-right:auto;
+    	 width:200px; left:0px; right:0; margin-left:-40px; margin-right:auto;
     }
     #tabs-2 .item{
     	 width:200px; left:0px; right:0; margin-left:100px; margin-right:auto;

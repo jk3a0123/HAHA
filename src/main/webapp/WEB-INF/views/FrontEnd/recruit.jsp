@@ -8,8 +8,8 @@
             <div class="awe-overlay"></div>
             <div class="container">
                 <div class="category-heading-content text-uppercase">
-                    <h3>USA</h3><br>
-                    <h2>NEWYORK <a href="flight-popup.html" class="flight-popup-open"><i class="awe-icon awe-icon-info"></i></a></h2>
+                    <h3>KOREA</h3><br>
+                    <h2>RECRUIT <a href="flight-popup.html" class="flight-popup-open"><i class="awe-icon awe-icon-info"></i></a></h2>
                 </div>
             </div>
         </section>
@@ -21,18 +21,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="page-top">
-                            <ul class="list-link">
-                                <li><a href="destinations-hotel.html">Hotel</a></li>
-                                <li><a href="destinations-attraction.html">Attraction</a></li>
-                                <li class="current"><a href="destinations-trip.html">Trip</a></li>
-                                <li><a href="destinations-flight.html">Flight</a></li>
-                                <li><a href="destinations-train.html">Train</a></li>
-                                <li><a href="#">Bus</a></li>
-                                <li><a href="#">Boat</a></li>
-                                <li><a href="#">Rent a vehicle</a></li>
-                                <li><a href="#">Music</a></li>
-                                <li><a href="#">Games</a></li>
-                            </ul>
+                            
                             <select class="awe-select">
                                 <option>Best Match</option>
                                 <option>Best Rate</option>
@@ -360,55 +349,41 @@
                     <div class="col-md-3 col-md-pull-9">
                         <div class="page-sidebar">
                             <div class="sidebar-title">
-                                <h2>Trip</h2>
+                                <h2>Recruit</h2>
                                 <div class="clear-filter">
                                     <a href="#">Clear all</a>
                                 </div>
                             </div>
                             <!-- WIDGET -->
                             <div class="widget widget_has_radio_checkbox">
-                                <h3>Trip Type</h3>
+                                <h3>Recruit Type</h3>
                                 <ul>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Amusement park
+                                            미술
                                         </label>
                                     </li>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Natural sight-seeing
+                                            음악
                                         </label>
                                     </li>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Pool &amp; Waterpark
+                                            음식
                                         </label>
                                     </li>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Museum
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label>
-                                            <input type="checkbox">
-                                            <i class="awe-icon awe-icon-check"></i>
-                                            Religious and Cultural place
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label>
-                                            <input type="checkbox">
-                                            <i class="awe-icon awe-icon-check"></i>
-                                            Shoping mall &amp; Market
+                                            문화
                                         </label>
                                     </li>
                                     <li>
@@ -418,13 +393,14 @@
                                             Others
                                         </label>
                                     </li>
+                                    
                                 </ul>
                             </div>
                             <!-- END / WIDGET -->
 
                             <!-- WIDGET -->
                             <div class="widget widget_price_filter">
-                                <h3>Price Level</h3>
+                                <h3>Price</h3>
                                 <div class="price-slider-wrapper">
                                     <div class="price-slider"></div>
                                     <div class="price_slider_amount">
@@ -511,33 +487,69 @@
                             <!-- WIDGET -->
                             <div class="widget widget_has_radio_checkbox">
                                 <h3>Distance</h3>
-                                <ul>
+                                    <ul>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Near Airport
+                                            <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
                                         </label>
                                     </li>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Near Shopping District
+                                            <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
                                         </label>
                                     </li>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Near Attractions
+                                            <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
                                         </label>
                                     </li>
                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Near Traffic station
+                                            <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            <i class="awe-icon awe-icon-check"></i>
+                                            <span class="rating">
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox">
+                                            <i class="awe-icon awe-icon-check"></i>
+                                            <span class="rating">
+                                                Unrated
+                                            </span>
                                         </label>
                                     </li>
                                 </ul>
@@ -548,27 +560,6 @@
                             <div class="widget widget_has_radio_checkbox">
                                 <h3>Service Include</h3>
                                 <ul>
-                                    <li>
-                                        <label>
-                                            <input type="checkbox">
-                                            <i class="awe-icon awe-icon-check"></i>
-                                            Room service
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label>
-                                            <input type="checkbox">
-                                            <i class="awe-icon awe-icon-check"></i>
-                                            Laundry
-                                        </label>
-                                    </li>
-                                    <li>
-                                        <label>
-                                            <input type="checkbox">
-                                            <i class="awe-icon awe-icon-check"></i>
-                                            Meal at room
-                                        </label>
-                                    </li>
                                     <li>
                                         <label>
                                             <input type="checkbox">
@@ -594,14 +585,14 @@
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Pool
+                                            Smoking Room
                                         </label>
                                     </li>
-                                    <li>
+                                     <li>
                                         <label>
                                             <input type="checkbox">
                                             <i class="awe-icon awe-icon-check"></i>
-                                            Gym and Spa
+                                            elevator
                                         </label>
                                     </li>
                                 </ul>

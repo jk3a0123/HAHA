@@ -227,23 +227,38 @@
             var priceslider = $(this);
             priceslider.slider({
                 min: 0,
-                max: 10000,
+                max: 1000000,
                 step: 5,
-                values: [ 0, 10000 ],
+                values: [ 0, 1000000 ],
                 range: true,
                 slide: function( event, ui ) {
                     var $this=$(this),
                         values=ui.values;
-                    priceslider.siblings('.price_slider_amount').find('.from').text('$' + values[0]);
-                    priceslider.siblings('.price_slider_amount').find('.to').text('$' + values[1]);
+                    priceslider.siblings('.price_slider_amount').find('.from').text(toggleComma(values[0]));
+                    priceslider.siblings('.price_slider_amount').find('.to').text(toggleComma(values[1]));
                 }
             });
 
             var values = priceslider.slider( "option", "values");
-            priceslider.siblings('.price_slider_amount').find('.from').text('$' + values[0]);
-            priceslider.siblings('.price_slider_amount').find('.to').text('$' + values[1]);
+            priceslider.siblings('.price_slider_amount').find('.from').text(toggleComma(values[0]));
+            priceslider.siblings('.price_slider_amount').find('.to').text(toggleComma(values[1]));
         });
     }
+    
+    
+    function toggleComma(fee) {
+		var result;
+		fee = String(fee);
+		var idx = fee.indexOf(",");
+		console.log(idx);
+		if (idx == -1){
+			result = fee.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+		}
+		
+		console.log(result);
+		return result;
+    }
+    
 
     function aweSelect() {
         $('.awe-select').each(function() {

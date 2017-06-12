@@ -31,6 +31,10 @@
 									</a>
 								</div>
 								<div class="item">
+									<a href="#"> <i class="awe-icon awe-icon-briefcase-plus"></i> <span>강원도</span>
+									</a>
+								</div>
+								<div class="item">
 									<a href="#"> <i class="awe-icon awe-icon-music"></i> <span>전라도</span>
 									</a>
 								</div>
@@ -313,273 +317,20 @@
 									<span class="count">132</span> available hotel
 								</div>
 							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<!-- <div class="awe-masonry__item">
-                                    <a href="#">
-                                        <div class="image-wrap image-cover">
-                                            <img src="../resources/images/img/3.jpg" alt="">
-                                        </div>
-                                    </a>
-                                    <div class="item-title">
-                                        <h2><a href="#">Venice</a></h2>
-                                        <div class="item-cat">
-                                            <ul>
-                                                <li><a href="#">Italy</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="item-available">
-                                        <span class="count">2341</span>
-                                        available hotel
-                                    </div>
-                                </div> -->
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
 							
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/4.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Ohio</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">USA</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/5.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Venice</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">Italy</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/6.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Mandives</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">Mandives</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/7.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Istanbul</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">Turkey</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/8.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Bali</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">Thailand</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/9.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Phu Quoc</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">Vietnam</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/1.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Florenze</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">Italy</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">845</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/2.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Toluca</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">USA</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">132</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/3.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Venice</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">Italy</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2341</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/4.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Ohio</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">USA</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
+							
+						
+							
+							
+							
+							
+							
+							
+							
+							
+							
 
-							<!-- GALLERY ITEM -->
-							<div class="awe-masonry__item">
-								<a href="#">
-									<div class="image-wrap image-cover">
-										<img src="../resources/images/img/4.jpg" alt="">
-									</div>
-								</a>
-								<div class="item-title">
-									<h2>
-										<a href="#">Ohio</a>
-									</h2>
-									<div class="item-cat">
-										<ul>
-											<li><a href="#">USA</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="item-available">
-									<span class="count">2531</span> available hotel
-								</div>
-							</div>
-							<!-- END / GALLERY ITEM -->
-
+							
 						</div>
 					</div>
 					<div class="more-destination">
@@ -619,8 +370,48 @@
 			console.log($(".category").val());
 			console.log($(".osp").val());
 			console.log($(".capacity").val());
+		});
+		
+		
+		$(".item > a").click(function(event){
+			/* console.log(event.target.nextElementSibling.innerText); */
+			var ck = event.target.nextElementSibling.innerText;
+			console.log(ck.length);
+			if(ck.length == 3){
+				console.log(ck.substr(0,2));
+				ckGo(ck.substr(0,2));
+			}
+			else{
+				console.log(ck);
+				ckGo(ck);
+			}
+			
+		/* 	$.ajax({
+				
+				url :'/FrontEnd/click',
+				data : ck, // 서버로 보낼 데이터 data변수(form 객체 컬렉션)
+				datatype : "text", //서버로 보낼 데이터 type 형식 설정
+				success:function(data){
+					console.log(data);
+				}
+				
+				
+			}); */
 			
 		});
+		
+		function ckGo(ck){
+			$.ajax({
+				
+				url :'/FrontEnd/click?ck='+ck,
+				/* data : ck, // 서버로 보낼 데이터 data변수(form 객체 컬렉션) */
+				datatype : "text", //서버로 보낼 데이터 type 형식 설정
+				success:function(data){
+					console.log(data);
+				}
+			});
+		}
+		
 		
 		
 	});
