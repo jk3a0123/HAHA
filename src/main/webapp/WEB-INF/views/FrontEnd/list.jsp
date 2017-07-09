@@ -373,44 +373,82 @@
 		});
 		
 		
-		$(".item > a").click(function(event){
-			/* console.log(event.target.nextElementSibling.innerText); */
-			var ck = event.target.nextElementSibling.innerText;
-			console.log(ck.length);
-			if(ck.length == 3){
-				console.log(ck.substr(0,2));
-				ckGo(ck.substr(0,2));
-			}
-			else{
-				console.log(ck);
-				ckGo(ck);
+	//Gallery Page 에서 
+	$(".travelling-tabs > ul").click(function(event){
+			
+			console.log(event.target.innerText);
+			
+			var classify = event.target.innerText;
+			
+			// javascript 로 각 종류별로 컬럼명을 맞추어 보낸다.			
+			switch(classify) {
+			
+				case '지역' :
+					
+					break;
+					
+				case '카테고리' :
+				
+					break;
+					
+				case '운영주체성격' :
+				
+					break;
+					
+				case '가격' :
+					
+					break;
+					
+				case '평점' :
+					
+					break;
+					
+				case '후기' :
+					
+					break;
+					
+				default :
+					
+					break;
+			
 			}
 			
-		/* 	$.ajax({
-				
-				url :'/FrontEnd/click',
-				data : ck, // 서버로 보낼 데이터 data변수(form 객체 컬렉션)
-				datatype : "text", //서버로 보낼 데이터 type 형식 설정
-				success:function(data){
-					console.log(data);
-				}
-				
-				
-			}); */
+			
 			
 		});
 		
-		function ckGo(ck){
+		
+		
+		
+		
+		  $(".item > a").click(function(event){
+			// console.log(event.target.nextElementSibling.innerText); 
+			var ck = event.target.nextElementSibling.innerText;
+			console.log(ck.length);
+			if(ck.length >= 3){
+				console.log(ck.substr(0,2));
+				/* ckGo(ck.substr(0,2)); */
+			}
+			else{
+				console.log(ck);
+				/* ckGo(ck); */
+			}
+		});  
+		
+		
+		// list.page 에서 클릭시 나오는 값
+		 function ckGo(ck){
 			$.ajax({
-				
 				url :'/FrontEnd/click?ck='+ck,
-				/* data : ck, // 서버로 보낼 데이터 data변수(form 객체 컬렉션) */
+			    data : ck, // 서버로 보낼 데이터 data변수(form 객체 컬렉션)
 				datatype : "text", //서버로 보낼 데이터 type 형식 설정
 				success:function(data){
-					console.log(data);
+					console.log("ajax success data : " + data);
 				}
 			});
-		}
+		} 
+		
+		
 		
 		
 		
